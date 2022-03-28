@@ -75,7 +75,7 @@ function Home() {
                   <h3 className='homeServices__name'>SERVICES</h3>
                   <h4 className='homeServices__subtext'>Professional care <span className='yellow'>by car lovers</span></h4> 
 
-                  <Link to='/about'>
+                  <Link to='/inshopservices'>
                     <button className='homeServices__button'>LEARN MORE</button>
                   </Link>
                 </div>
@@ -94,7 +94,7 @@ function Home() {
                     <h3 className='homeServices__name'>SPECIALTY SERVICES</h3>
                     <h4 className='homeServices__subtext'>Get your vehicle <span className='yellow'>prepared for the season</span></h4> 
 
-                    <Link to='/about'>
+                    <Link to='/specialtyservices'>
                       <button className='homeServices__button'>LEARN MORE</button>
                     </Link>
                   </div>
@@ -122,7 +122,7 @@ function Home() {
                     <h3 className='homeServices__text'>PH Neutral Soap</h3>
                     <h4 className='homeServices__subtext homeServices__subtext--FP'>This solution cleans without stripping your wax or drying out your trim</h4> 
 
-                    <Link to='/about'>
+                    <Link to='/specialtyservices'>
                       <button className='homeServices__button'>LEARN MORE</button>
                     </Link>
                   </div>
