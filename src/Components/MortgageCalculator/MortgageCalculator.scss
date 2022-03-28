@@ -1,0 +1,186 @@
+@import '../../partials/colors';
+@import '../../partials/mixins';
+
+.mortgage {
+	padding: 3rem 4.444rem 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	@include tablet{
+		padding: 0;
+		margin-bottom: 2rem;
+	}
+	@include mobile{
+		
+	}
+	&__title {
+		@include sectionTitle;
+		color: $grey;
+		@include tablet {
+			font-size: 1.556rem;
+		};
+	}
+	&__subtext{
+		@include regularText;
+		margin: 2rem 0rem;
+		width: 80%;
+		text-align: center;
+		@include tablet{
+			width: 70%;
+			font-size: 1.056rem;
+		}
+	}
+	&__form {
+		width: 100%;
+		max-width: 1100px;
+		display: flex;
+		justify-content: center;
+		// margin-top: 3rem;
+		@include tablet {
+			flex-direction: column;
+			align-items: center;
+			margin-top: 1.667rem;
+			width: 90%
+		};
+	}
+	&__subbox {
+		display: flex;
+		flex-direction: column;
+		margin: 1rem 0 0.5rem 2rem;
+		width: 50%;
+		@include tablet {
+			text-align: center;
+			margin: 0;
+			width: 100%;
+		};
+	}
+	&__subtitle {
+		color: $grey;
+		font-family: 'Nunito Sans', sans-serif;
+		font-size: 2rem;
+		font-weight: 700;
+		@include tablet {
+			font-size: 1.667rem;
+		};
+		&--big {
+			font-size: 2.5rem;
+			@include tablet {
+				font-size: 2rem;
+			};
+		}
+	}
+	&__warning {
+		font-size: 0.8rem;
+		margin-top: 1.667rem;
+		
+		@include tablet {
+			margin-top: 1rem;
+			font-size: 1.067rem;
+		};
+	}
+	&__inputcont {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 50%;
+		@include tablet {
+			margin-top: 1rem;
+			width: 80%;
+		};
+	}
+	&__inputbox {
+		width: 45%;
+		display: flex;
+		flex-direction: column;
+		margin: 0 1rem;
+	}
+	&__label {
+		margin-bottom: 0.25rem;
+		font-family: 'Nunito Sans', sans-serif;
+		font-weight: 900;
+		color: $grey;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		@include tablet {
+			font-size: 0.778rem;
+		};
+	}
+	&__input {
+		width: 100%;
+		height: 32px;
+		font-family: 'Nunito Sans', sans-serif;
+		color: $grey;
+		font-weight: 900;
+		padding: 0.25rem 0.5rem;
+		font-size: .9rem;
+		border: 1px solid $black;
+		border-radius: 7px;
+		background-color: rgba(0,0,0,0);
+		margin-bottom: 1rem;
+		@include tablet {
+			font-size: 0.778rem;
+		};
+	}
+	&__selectbox {
+		width: 100%;
+		height: 32px;
+		border-radius: 7px;
+		border: 1px solid $black;
+		display: flex;
+		align-items: center;
+		margin-bottom: 1rem;
+	}
+	&__select {
+		width: 25%;
+		font-family: 'Nunito Sans', sans-serif;
+		color: $grey;
+		font-weight: 900;
+		padding: 0.25rem 0 0.25rem 0.5rem;
+		font-size: 1rem;
+		border: 0px solid $black;
+		border-right: 1px solid $blue;
+		
+		background-color: rgba(0,0,0,0);
+		@include tablet {
+			font-size: 0.778rem;
+		};
+	}
+	&__downtext {
+		width: 75%;
+		font-size: 1rem;
+		font-family: 'Nunito Sans', sans-serif;
+		color: $grey;
+		font-weight: 900;
+		padding-left: 0.5rem;
+		margin-bottom: 0;
+		@include tablet {
+			font-size: 0.778rem;
+		};
+	}
+	&__button {
+		background-color: $grey;
+		border-radius: 38px;
+		color: $black;
+		width: 150px;
+		height: 35px;
+		font-family: 'Nunito Sans', sans-serif;
+		font-weight: 900;
+		font-size: 1rem;
+		margin-top: 1.5rem;
+		align-self: center;
+		@include tablet {
+			margin-top: 0.389rem;
+			width: 120px;
+			height: 30px;
+			font-size: 0.778rem;
+		};
+	}
+	&__span {
+		font-size: 1.333rem;
+		font-weight: 700;
+		@include tablet {
+			font-size: 1.111rem;
+		};
+	}
+}

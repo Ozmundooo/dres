@@ -1,0 +1,246 @@
+@import '../../partials/colors';
+@import '../../partials/mixins';
+
+.herohome {
+	width: 100%;
+	position: relative;
+	&__image {
+		width: 100%;
+		object-fit: cover;
+	}
+	&__contentbox {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto auto;
+		width: 100%;
+		height: 600px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	&__title {
+		color: $white;
+		font-family: 'Nunito Sans', sans-serif;
+		font-weight: 900;
+		font-size: 2.344rem;
+		margin: 1.7rem 0;
+		margin-bottom: 5rem;
+	}
+	&__logo{
+		width: 100%;
+	}
+	&__subtitle {
+		color: $black;
+		font-family: 'Nunito Sans', sans-serif;
+		font-weight: 700;
+		font-size: 1.562rem;
+		margin: 1.875rem 0 3.398rem;
+	}
+	&__buttonbox {
+		display: flex;
+	}
+	&__button {
+		margin: 0 2.9rem;
+		background-color: $grey;
+		border-radius: 38px;
+		color: $black;
+		font-family: 'Nunito Sans', sans-serif;
+		font-weight: 700;
+		font-size: 1.1rem;
+		width: 220px;
+		height: 52px;
+	}
+	@include tablet {
+		&__title {
+			font-size: 1.875rem;
+		}
+		&__subtitle {
+			font-size: 1rem;
+			margin: 1rem 0 1.25rem;
+		}
+		&__button {
+			font-size: 0.5rem;
+			width: 95px;
+			height: 25px;
+		}
+	}
+	@include mobile {
+		&__contentbox {
+			width: 300px;
+			height: 400px;
+		}
+		&__title {
+			font-size: 1.3rem;
+		}
+		&__subtitle {
+			margin: 1.5rem 0 3.5rem;
+			font-size: 1rem;
+		}
+		&__image {
+			height: 420px;
+		}
+		&__button {
+			margin: 0 1rem;
+			width: 110px;
+			font-size: 0.6rem;
+		}
+	}
+}
+
+.abouthome {
+	padding: 3.828rem 0 0.75rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	&__title {
+		color: $grey;
+		@include sectionTitle;
+	}
+	@include tablet {
+		&__title {
+			font-size: 1.3rem;
+		}
+	}
+	@include mobile {
+		padding: 3rem 0 0.75rem;
+		&__title {
+			font-size: 1.1rem;
+		}
+	}
+}
+
+.homeServices {
+	padding: 3rem 5.156rem 1rem;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	@include tablet {
+		padding: 2rem 4.813rem 2rem 3.875rem;
+	}
+	@include mobile {
+		padding: 0;
+	}
+	&__content {
+		display: flex;
+		align-items: center;
+		width: 100%;
+		max-width: 1300px;
+		gap: 3rem;
+		&--inverse {
+			flex-direction: row-reverse;
+		}
+		@include mobile {
+			padding: 1.667rem 1.944rem;
+			flex-direction: column;
+			justify-content: center;
+		}
+	}
+	&__image {
+		width: 55%;
+		@include tablet {
+			width: 45%;
+		}
+		@include mobile {
+			width: 100%;
+		}
+	}
+	&__contentBox {
+		width: 45%;
+		display: flex;
+		flex-direction: column;
+		align-items: left;
+		@include tablet {
+			width: 55%;
+		}
+		@include mobile {
+			width: 100%;
+			margin-top: 25px;
+			text-align: center;
+		}
+	}
+	&__name {
+		color: $white;
+		text-transform: capitalize;
+		@include sectionTitle;
+		font-size: 2.366rem;
+		@include tablet {
+			font-size: 0.9rem;
+		};
+		@include mobile {
+			font-size: 0.778rem;
+		}
+	}
+	&__subtext {
+		color: $white;
+		font-family: 'Nunito Sans', sans-serif;
+		font-weight: 300;
+		font-size: 1.4rem;
+		margin-top: 1rem;
+		margin-bottom: 9rem;
+		&--FP{
+			margin-bottom: 4rem;
+		}
+		@include tablet {
+			font-size: 0.65rem;
+			margin-top: 0.688rem;
+		};
+		@include mobile {
+			font-size: 0.667rem;
+			margin-top: 0.667rem;
+		}
+	}
+	&__text {
+		
+		text-align: left;
+		@include regularText;
+		color: $yellow;
+		@include tablet {
+			font-size: 0.65rem;
+			margin: 1.125rem 0 0.438rem;
+			line-height: 1.25rem;
+		}
+		@include mobile {
+			font-size: 0.667rem;
+			margin: 0.667rem 0 0.278rem;
+			line-height: 1.12rem;
+		}
+	}
+	&__button {
+		background-color: $yellow;
+		border-radius: 38px;
+		color: $black;
+		font-family: 'Nunito Sans', sans-serif;
+		font-weight: 700;
+		font-size: 1.1rem;
+		width: 250px;
+		height: 50px;
+		@include tablet {
+			font-size: 0.5rem;
+			width: 115px;
+			height: 30px;
+		}
+		@include mobile {
+			width: 120px;
+			height: 25px;
+		}
+	}
+}
+.mobileservices{
+	
+	&__title{
+		color: #FFF;
+		font-family: 'Nunito Sans', sans-serif;
+		font-weight: 900;
+		font-size: 2.344rem;
+		margin: 1.7rem 0;
+		margin-bottom: 5rem;
+		text-align: center;
+	}
+}	
+.yellow{
+	color: $yellow;
+}

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="118" height="102" viewBox="0 0 118 102">
+  <g id="homeArrowLeft" transform="translate(-194 -3119)">
+    <path id="Path_3" data-name="Path 3" d="M0,0,19.576,23.262.565,44.108" transform="matrix(-0.999, 0.035, -0.035, -0.999, 259.603, 3191.306)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"/>
+    <g id="Polygon_2" data-name="Polygon 2" transform="translate(194 3119)" fill="none">
+      <path d="M88.5,0,118,51,88.5,102h-59L0,51,29.5,0Z" stroke="none"/>
+      <path d="M 30.65361022949219 2 L 2.310478210449219 51 L 30.65361022949219 100 L 87.34638977050781 100 L 115.6895294189453 51 L 87.34638977050781 2 L 30.65361022949219 2 M 29.5 0 L 88.5 0 L 118 51 L 88.5 102 L 29.5 102 L 0 51 L 29.5 0 Z" stroke="none" fill="#fff"/>
+    </g>
+  </g>
+</svg>
