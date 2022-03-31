@@ -20,7 +20,8 @@
 		align-items: center;
 	}
 	&__logo {
-		width: 95px;
+		width: 185px;
+
 		@include tablet {
 			width: 63px;
 		}

@@ -28,7 +28,7 @@
 		}
 	}
 	&__image {
-		width: 65%;
+		width: 60%;
 		@include tablet {
 			width: 45%;
 		}
@@ -37,7 +37,7 @@
 		}
 	}
 	&__contentBox {
-		width: 35%;
+		width: 40%;
 		display: flex;
 		flex-direction: column;
 		align-items: center;

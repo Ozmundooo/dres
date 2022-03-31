@@ -27,7 +27,7 @@ function IService() {
       <section className={'generaltext'}>
         <div className={'generaltext__content'}>
           <h3 className='generaltext__title'>IN-SHOP SERVICES</h3>
-          <p className='generaltext__text'><span className='yellow'>Don't want to leave your home?</span> We are able to pick up your vehicle and drop it off at your desired location for a fee.</p>
+          <p className='generaltext__text'><span className='yellow'>Don't want to leave your home?</span> We are able to pick up your vehicle and drop it off at your desired location for a fee</p>
           <br></br>
           <br></br>
           <br></br>
@@ -37,14 +37,14 @@ function IService() {
       <ServiceCard
         title="Maintenance of Handwashing"
         subtitle="Basically like taking your car for a car wash, but you’re letting the pros handle it"
-        description="Your vehicle will be treated to a top-to-bottom pre-rinse, two bucket method hand wash, Wheels, crevices, door jams, and gas cap all detailed."
+        description="Your vehicle will be treated to a top-to-bottom pre-rinse, two bucket method hand wash, Wheels, crevices, door jams, and gas cap all detailed"
         link=""
         image= {IS1}
       />
       <ServiceCard
         title="Interior cleaning"
         subtitle="Give your car the clean it deserves"
-        description="Allow our professional detailers to rejuvenate the interior of your vehicle. We utilize VOC approved, Earth Friendly certified products to not only clean your vehicle, but ensure it stays clean."
+        description="Allow our professional detailers to rejuvenate the interior of your vehicle. We utilize VOC approved, Earth Friendly certified products to not only clean your vehicle, but ensure it stays clean"
         link="s"
         image= {IS2}
       />
@@ -60,7 +60,7 @@ function IService() {
       <ServiceCard
         title="Interior Steam cleaning"
         subtitle="your car’s interior will be spotless"
-        description="Steam cleaning will also sanitize it by killing 99% of bacteria which can cause odours and illnesses. The interior will be cleaner than ever, guaranteed."
+        description="Steam cleaning will also sanitize it by killing 99% of bacteria which can cause odours and illnesses. The interior will be cleaner than ever, guaranteed"
         link="s"
         image= {IS4}
       />
@@ -68,7 +68,7 @@ function IService() {
       <section className={'generaltext'}>
         <div className={'generaltext__content'}>
           <h3 className='generaltext__title'><span className='yellow'>ADD-ONS / TINTING OPTIONS</span></h3>
-          <p className='generaltext__text'>This service provides privacy from outside eyes, while giving your vehicle some style. Window tints filter incoming sunlight, protecting both passengers and interior surfaces from harmful UV rays, and reducing your vehicle’s interior temperature for a more comfortable driving experience.</p>
+          <p className='generaltext__text'>This service provides privacy from outside eyes, while giving your vehicle some style. Window tints filter incoming sunlight, protecting both passengers and interior surfaces from harmful UV rays, and reducing your vehicle’s interior temperature for a more comfortable driving experience</p>
         </div>
 
       </section>

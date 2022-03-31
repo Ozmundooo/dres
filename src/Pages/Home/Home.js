@@ -50,15 +50,15 @@ function Home() {
               testimonials={[
                 {
                   name: 'Mobile services',
-                  text: "For your convenience,<span classname='yellow'> we are able to pick up your vehicle and drop it off</span>at your desired location for a fee once we complete all services requested."
+                  text: "For your convenience,<span classname='yellow'> we are able to pick up your vehicle and drop it off</span>at your desired location for a fee once we complete all services requested"
                 },
                 {
                   name: 'Specialty services',
-                  text: "We think of all the little details. Get your car ready for the season."
+                  text: "We think of all the little details. Get your car ready for the season"
                 },
                 {
                   name: 'In-shop services',
-                  text: "Take advantage of our tools, space and staff."
+                  text: "Take advantage of our tools, space and staff"
                 }
               ]}
             />
@@ -108,6 +108,14 @@ function Home() {
           {
             name: '- Grant Mihalcheon',
             text: "Andre has such a great attention to detail. Very professional work. If you're looking for one of the best detailers in the region Andre is your guy. From a simple wash to ceramic coating packages. Check out his Instagram website and you'll see what I mean."
+          },
+          {
+            name: '- Brenda Shiner',
+            text: "Best place to get your car detailed inside and out! My car looked brand new and smelled great! I had my car detailed in December and was worried about the moisture in my cloth interior. Andre gave me tips on how to solve that problem. Andre is the most polite and thoughtful person. The team there is awesome! Thank you!"
+          },
+          {
+            name: '- Tyra Cabeldu',
+            text: "I have been using Dre's Auto Detailing for quite a few years now. His work has always been above and beyond. I am extremely particular about my vehicles being detailed and he always exceeds my expectations. He has now detailed several of my vehicles and is always professional. I highly recommend using Dre for all detailing needs!"
           }
         ]}
       />

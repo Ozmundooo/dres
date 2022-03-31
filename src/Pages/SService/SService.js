@@ -9,7 +9,7 @@ import heroHome from '../../assets/images/SS_hero.png';
 import GeneralText from "../../Components/GeneralText/GeneralText";
 
 import SS1 from '../../assets/images/SS_service1.png';
-import SS2 from '../../assets/images/SS_service2.jpg';
+import SS2 from '../../assets/images/SS_service2.png';
 import SS3 from '../../assets/images/SS_service3.png';
 import SS4 from '../../assets/images/SS_service4.jpg';
 import SS5 from '../../assets/images/SS_service5.jpg';
@@ -39,14 +39,14 @@ function SService() {
       <ServiceCard
         title="Paint chip touch up"
         subtitle="A rock might have chipped the paint off your vehicle. This happens all the time "
-        description="Wear & tear happens, but it can also be corrected. Through careful and detailed paint touch up, the Dre's team knows exactly how to bring your vehicle back to life."
+        description="Wear & tear happens, but it can also be corrected. Through careful and detailed paint touch up, the Dre's team knows exactly how to bring your vehicle back to life"
         link="s"
         image= {SS2}
       />
       <ServiceCard
         title="Ceramic Coating protection"
         subtitle="Protect your vehicle’s beauty with our Ceramic Coating Protection service"
-        description="This will keep your car looking like new, making your car glossy and cleaner due to mud and grime prevention."
+        description="This will keep your car looking like new, making your car glossy and cleaner due to mud and grime prevention"
         link="s"
         image= {SS3}
       />
@@ -62,7 +62,7 @@ function SService() {
       <ServiceCard
         title="DENT REPAIR"
         subtitle="The PDR process is done through careful manipulation of the sheet metal from the backside with special tools."
-        description="PDR is otherwise known as paintless dent repair. This is a process used by technicians to remove small dents from the vehicle without having to use paint or Bondo on the vehicle.  The technicians apply pressure and leverage to the backside of the panel and massage or work the dents out keeping the very valuable factory paint intact.  There is no sanding, body fillers, or painting involved."
+        description="PDR is otherwise known as paintless dent repair. This is a process used by technicians to remove small dents from the vehicle without having to use paint or Bondo on the vehicle.  The technicians apply pressure and leverage to the backside of the panel and massage or work the dents out keeping the very valuable factory paint intact.  There is no sanding, body fillers, or painting involved"
         link="s"
         image= {SS5}
       />
@@ -70,7 +70,7 @@ function SService() {
       <section className={'generaltext'}>
         <div className={'generaltext__content'}>
           <h3 className='generaltext__title'><span className='yellow'>TINTING OPTIONS</span></h3>
-          <p className='generaltext__text'>This service provides privacy from outside eyes, while giving your vehicle some style. Window tints filter incoming sunlight, protecting both passengers and interior surfaces from harmful UV rays, and reducing your vehicle’s interior temperature for a more comfortable driving experience.</p>
+          <p className='generaltext__text'>This service provides privacy from outside eyes, while giving your vehicle some style. Window tints filter incoming sunlight, protecting both passengers and interior surfaces from harmful UV rays, and reducing your vehicle’s interior temperature for a more comfortable driving experience</p>
         </div>
 
       </section>

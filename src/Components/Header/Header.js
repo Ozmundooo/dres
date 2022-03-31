@@ -1,6 +1,4 @@
 import { Link } from 'react-router-dom';
-import DropdownButton from 'react-bootstrap/DropdownButton';
-import Dropdown from 'react-bootstrap/Dropdown';
 import Sidebar from '../Sidebar/Sidebar';
 import logo from '../../assets/images/logo_dre.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -23,21 +21,11 @@ function Header(props) {
 					<div className='header__container'>
 						<Link to='/' className='header__link'>Home</Link>
 						<Link to='/about' className='header__link'>About Us</Link>
-						<DropdownButton
-							id="dropdown-basic-button"
-							title="Services"
-							className='headerdropdown'
-						>
-						  <Dropdown.Item><Link to='/specialtyservices' className='header__link header__link--dropdown'>Specialty Services</Link></Dropdown.Item>
-						  <Dropdown.Item><Link to='/inshopservices' className='header__link header__link--dropdown'>In Shop Services</Link></Dropdown.Item>
-						</DropdownButton>
-						{/* <Link to='/ontario' className='header__link'>Membership</Link> */}
-						
+						<Link to='/specialtyservices' className='header__link'>Specialty Services</Link>
+						<Link to='/inshopservices' className='header__link'>In Shop Services</Link> 
+						<Link to='/contact' className='header__link'>Contact Us</Link> 
 					</div>
 				</nav>
-				{/* <a className='header__buttonbox' href="" target="_blank">
-					<button className='header__button'>JOIN MEMBERSHIP</button>
-				</a> */}
 			</header>
 		</>
 	);

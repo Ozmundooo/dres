@@ -7,6 +7,7 @@ import Footer from './Components/Footer/Footer';
 import './partials/_common.scss';
 import SService from './Pages/SService/SService';
 import IService from './Pages/IService/IService';
+import Contact from './Pages/Contact/Contact';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path='/about' component={About} />
         <Route path='/specialtyservices' component={SService} />
         <Route path='/inshopservices' component={IService} />
+        <Route path='/contact' component={Contact} />
       </Switch>
       <Footer />
     </Router>

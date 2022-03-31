@@ -19,7 +19,7 @@ function About() {
       <GeneralText
         title={"ABOUT US"}
         text={
-          "Our passion is cars, and our mission is to improve and protect the appearance of your car for the many miles ahead."
+          "Our passion is cars, and our mission is to improve and protect the appearance of your car for the many miles ahead"
         }
       />
 
@@ -31,8 +31,8 @@ function About() {
             <h3 className="meetdre__title">MEET THE FOUNDER</h3>
             <div className="meetdre__divider"></div>
             <h4 className="meetdre__name">ANDRE CORDEIRO</h4>
-            <h5 className="meetdre__subtitle">JOB POSITION</h5>
-            <p className="meetdre__description">Andre is the founder of Dre's Auto Detailing. Andre fell in love with cars  at an early age which led him to start his own business in 2016. Now, Dre is known as the go-to guy for luxury vehicle detailing.</p>
+            <h5 className="meetdre__subtitle">FOUNDER</h5>
+            <p className="meetdre__description">Andre is the founder of Dre's Auto Detailing. Andre fell in love with cars  at an early age which led him to start his own business in 2016. Now, Dre is known as the go-to guy for luxury vehicle detailing</p>
         </div>
       </div>
 
