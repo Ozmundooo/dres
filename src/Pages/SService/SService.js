@@ -11,8 +11,8 @@ import GeneralText from "../../Components/GeneralText/GeneralText";
 import SS1 from '../../assets/images/SS_service1.png';
 import SS2 from '../../assets/images/SS_service2.png';
 import SS3 from '../../assets/images/SS_service3.png';
-import SS4 from '../../assets/images/SS_service4.jpg';
-import SS5 from '../../assets/images/SS_service5.jpg';
+import SS4 from '../../assets/images/SS_service4.png';
+import SS5 from '../../assets/images/SS_service5.png';
 
 import './SService.scss';
 function SService() {
@@ -61,7 +61,7 @@ function SService() {
 
       <ServiceCard
         title="DENT REPAIR"
-        subtitle="The PDR process is done through careful manipulation of the sheet metal from the backside with special tools."
+        subtitle="The PDR process is done through careful manipulation of the sheet metal from the backside with special tools"
         description="PDR is otherwise known as paintless dent repair. This is a process used by technicians to remove small dents from the vehicle without having to use paint or Bondo on the vehicle.  The technicians apply pressure and leverage to the backside of the panel and massage or work the dents out keeping the very valuable factory paint intact.  There is no sanding, body fillers, or painting involved"
         link="s"
         image= {SS5}

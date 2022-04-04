@@ -4,7 +4,7 @@
 .contactform {
 	display: flex;
 	flex-direction: row;
-	align-items: center;
+	
 	padding: 3rem 0;
 	@include tablet {
 		padding: 2rem 0;
@@ -34,12 +34,13 @@
 		width: 50%;
 		display: flex;
 		flex-direction: column;
-		margin-left: 5rem;
+		margin-left: 12rem;
+		
 	}
 	&__form {
 		display: flex;
 		flex-direction: column;
-		width: 50%;
+		width: 60%;
 		max-width: 600px;
 		@include tablet {
 			max-width: 330px;

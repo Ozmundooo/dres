@@ -50,7 +50,7 @@ function Home() {
               testimonials={[
                 {
                   name: 'Mobile services',
-                  text: "For your convenience,<span classname='yellow'> we are able to pick up your vehicle and drop it off</span>at your desired location for a fee once we complete all services requested"
+                  text: "For your convenience,<span classname='yellow'> we are able to pick up your vehicle and drop it off</span> at your desired location for a fee once we complete all services requested"
                 },
                 {
                   name: 'Specialty services',
