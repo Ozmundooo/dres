@@ -4,49 +4,68 @@
 .contactform {
 	display: flex;
 	flex-direction: row;
-	
+	justify-content: center;
 	padding: 3rem 0;
 	@include tablet {
 		padding: 2rem 0;
+		flex-direction: column;
+		align-items: center;
 	}
+	
 	&__title {
-		
-		
 		color: $grey;
 		margin-bottom: 2.5rem;
 		@include tablet {
 			font-size: 1.111rem;
-			margin-bottom: 2rem;
+			margin-bottom: 1rem;
 		}
 		@include mobile {
 			font-size: 0.889rem;
-			margin-bottom: 1.667rem;
+			margin-bottom: .67rem;
 		}
 	}
 	&__subtext{
 		color: white;
+		@include tablet {
+			font-size: 1.011rem;
+			margin-bottom: 1rem;
+		}
+		@include mobile {
+			font-size: 0.789rem;
+			margin-bottom: .67rem;
+		}
 	}
 	&__image{
 		margin-top: 2rem;
 		width: 50%;
+		@include tablet{
+			width: 80%;
+		}
 	}
 	&__textbox{
 		width: 50%;
 		display: flex;
 		flex-direction: column;
-		margin-left: 12rem;
-		
+		@include tablet{
+			width: 60%;
+			margin: 0 1rem;
+		}
+			
 	}
 	&__form {
 		display: flex;
 		flex-direction: column;
 		width: 60%;
 		max-width: 600px;
+		justify-content:end;
 		@include tablet {
-			max-width: 330px;
+			max-width: 550px;
+			width: 100%;
+			margin-top: 1rem;
 		}
 		@include mobile {
 			max-width: 250px;
+
 		}
 	}
 	&__label {
@@ -56,11 +75,11 @@
 		font-size: 1.1rem;
 		color: $white;
 		@include tablet {
-			font-size: 0.556rem;
+			font-size: 0.756rem;
 			margin-bottom: 0.438rem;
 		}
 		@include mobile {
-			font-size: 0.5rem;
+			font-size: 0.65rem;
 			margin-bottom: 0.389rem;
 		}
 	}

@@ -4,6 +4,9 @@
 .HomeCaro {
 	background-image: url('../../assets/images/mobile_services_bg.png');
 	height: 500px;
+	@include mobile{
+		height: 150px;
+	}
 	padding: 3rem 7.778rem;
 ;
 	margin: 3rem 0;

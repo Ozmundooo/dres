@@ -57,8 +57,9 @@
 			height: 60.128px;
 			margin-top: 12rem;
 			@include tablet {
-				width: 9px;
+				width: 25px;
 				height: 19px;
+				margin-top: 1rem;
 			}
 
 		}

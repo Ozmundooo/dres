@@ -5,11 +5,11 @@ import './Sidebar.scss';
 function Sidebar() {
   return (
     <Menu right>
-      <Link to='/about' className='header__link'>ABOUT</Link>
-      <Link to='/localpicks' className='header__link'>JULIAN'S LOCAL PICKS</Link>
-      <Link to='/ontario' className='header__link'>ONTARIO</Link>
-      <Link to='/florida' className='header__link'>FLORIDA</Link>
-      <Link to='/featured' className='header__link'>FEATURED LISTINGS</Link>
+      <Link to='/' className='header__link'>Home</Link>
+      <Link to='/about' className='header__link'>About Us</Link>
+      <Link to='/specialtyservices' className='header__link'>Specialty Services</Link>
+      <Link to='/inshopservices' className='header__link'>In Shop Services</Link>
+      <Link to='/contact' className='header__link'>Contact Us</Link>
     </Menu>
   )
 }

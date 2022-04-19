@@ -55,22 +55,36 @@
 		align-items: center;
         background-color: #1A1A1A;
 		@include tablet {
-			padding: 0 1.333rem;
+
+			flex-direction: column;
+			padding: 1rem 1.333rem;
 			text-align: center;
 		};
 		@include mobile {
-			padding: 0 1.944rem;
+			padding: 1rem 1.944rem;
 		};
 	}
     &__imagebox{
 
     }
     &__image{
-        height: 400px
+        height: 400px;
+		@include tablet{
+
+			height: 300px;
+		}
+
+		@include mobile{
+			height: 250px;
+		}
     }
     &__textbox{
 
-       margin-left: 3rem
+       margin-left: 3rem;
+	   @include tablet{
+		   margin: 1rem 0;
+		   margin-left: 0;
+	   }
     }
 	&__title {
 		@include sectionTitle;
@@ -80,6 +94,7 @@
         font-weight: 600;
 		font-size: 1.6rem;
 		@include tablet {
+			text-align: left;
 			font-size: 1.1rem;
 			margin-bottom: 1.833rem;
 		}
@@ -97,6 +112,7 @@
 		color: $white;
 		width: 80%;
 		@include tablet {
+			text-align: left;
 			font-size: 1.1rem;
 			margin-bottom: 1.833rem;
 		}
@@ -145,10 +161,10 @@
 			font-size: 0.5rem;
 		};
 		@include mobile {
-			width: 110px;
-			height: 24px;
+			width: 130px;
+			height: 28px;
 			margin: 0 0.566rem;
-			font-size: 0.444rem;
+			font-size: 0.544rem;
 		}
 	}
 }

@@ -54,10 +54,10 @@
 		color: $white;
 		@include sectionTitle;
 		@include tablet {
-			font-size: 0.9rem;
+			font-size: 1.2rem;
 		};
 		@include mobile {
-			font-size: 0.778rem;
+			font-size: 1.008rem;
 		}
 	}
 	&__position {
@@ -67,11 +67,11 @@
 		font-size: 1.4rem;
 		margin-top: 1rem;
 		@include tablet {
-			font-size: 0.65rem;
+			font-size: 1.065rem;
 			margin-top: 0.688rem;
 		};
 		@include mobile {
-			font-size: 0.667rem;
+			font-size: 1.0rem;
 			margin-top: 0.667rem;
 		}
 	}
@@ -80,12 +80,12 @@
 		text-align: center;
 		@include regularText;
 		@include tablet {
-			font-size: 0.65rem;
+			font-size: .975rem;
 			margin: 1.125rem 0 0.438rem;
 			line-height: 1.25rem;
 		}
 		@include mobile {
-			font-size: 0.667rem;
+			font-size: .967rem;
 			margin: 0.667rem 0 0.278rem;
 			line-height: 1.12rem;
 		}
@@ -100,11 +100,12 @@
 		width: 250px;
 		height: 50px;
 		@include tablet {
-			font-size: 0.5rem;
+			font-size: .755rem;
 			width: 115px;
 			height: 30px;
 		}
 		@include mobile {
+			margin-top: .5rem;
 			width: 120px;
 			height: 25px;
 		}
