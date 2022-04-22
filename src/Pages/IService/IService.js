@@ -36,15 +36,15 @@ function IService() {
       </section>
       <ServiceCard
         title="Maintenance of Handwashing"
-        subtitle="Basically like taking your car for a car wash, but you’re letting the pros handle it"
-        description="Your vehicle will be treated to a top-to-bottom pre-rinse, two bucket method hand wash, Wheels, crevices, door jams, and gas cap all detailed"
+        subtitle="Pre rinse, ph neutral foam bath, 2 bucket method gentle hand wash, wheels, barrels, callipers decontaminated, ceramic hybrid detailer finish on painted surfaces, glass, rims"
+        description="Included in this service (door sills, trunk, hood sill, gas cap, wiper blades hand cleaned)"
         link=""
         image= {IS1}
       />
       <ServiceCard
         title="Interior cleaning"
         subtitle="Give your car the clean it deserves"
-        description="Allow our professional detailers to rejuvenate the interior of your vehicle. We utilize VOC approved, Earth Friendly certified products to not only clean your vehicle, but ensure it stays clean"
+        description="When it comes to the interior of your car, we do much more than just vacuum and wipe down your dash… we get right into the details. We offer maintenance interior detailing packages to a full out interior rejuvenation. Allow our professional detailers do the magic. We utilise cutting edge equipment, techniques and voc compliant products that are safe for your vehicle to bring it back to new"
         link="s"
         image= {IS2}
       />
@@ -52,23 +52,37 @@ function IService() {
       <ServiceCard
         title="Interior deep cleaning"
         subtitle="Give your car the clean it deserves"
-        description="Give your car that “new feel” with this premium service. Your car’s interior will be professionally detailed, vacuumed, scrubbed, and wiped down to the fullest"
+        description="This happens often so don't feel left out. We can go as far as unbolting your seats to gain further access to imbedded crevices. We’re all about the details"
         link="s"
         image= {IS3}
       />
 
       <ServiceCard
         title="Interior Steam cleaning"
-        subtitle="your car’s interior will be spotless"
-        description="Steam cleaning will also sanitize it by killing 99% of bacteria which can cause odours and illnesses. The interior will be cleaner than ever, guaranteed"
+        subtitle="Your car’s interior will be spotless"
+        description="Steam treatment is a specialty method of hot vapour surface cleaning without the use of detailing products. Steam cleaning is very effective with uplifting up to 99% of bacteria, viruses and germs as well loosens imbedded dirt and grime in between crevices and surfaces. Steam treatment applies to all interior surfaces such as glass, door handles, steering wheel, seats, seat belts, dash, trim and carpet"
+        link="s"
+        image= {IS4}
+      />
+      {/* <ServiceCard
+        title="Interior deep cleaning"
+        subtitle=""
+        description="This happens often so don't feel left out. We can go as far as unbolting your seats to gain further access to imbedded crevices. We’re all about the details."
+        link="s"
+        image= {IS4}
+      /> */}
+      <ServiceCard
+        title="Diamond custom floor mats"
+        subtitle=""
+        description="3d laser measured to your vehicles oem dimensions. Pu leather, 5 layers of durable protection"
         link="s"
         image= {IS4}
       />
 
       <section className={'generaltext'}>
         <div className={'generaltext__content'}>
-          <h3 className='generaltext__title'><span className='yellow'>ADD-ONS / TINTING OPTIONS</span></h3>
-          <p className='generaltext__text'>This service provides privacy from outside eyes, while giving your vehicle some style. Window tints filter incoming sunlight, protecting both passengers and interior surfaces from harmful UV rays, and reducing your vehicle’s interior temperature for a more comfortable driving experience</p>
+          <h3 className='generaltext__title'><span className='yellow'>ADDITIONAL SERVICES</span></h3>
+          <p className='generaltext__text'>Window tinting is a must these days. It provides privacy, UVB, UVA protection of passengers while on the road and solar heat reflection to protect your interior from sun fade. Window tinting also creates a touch of appearance to your vehicle's exterior finish. Don't get caught in a fishbowl</p>
         </div>
 
       </section>

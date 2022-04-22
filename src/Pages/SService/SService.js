@@ -70,7 +70,7 @@ function SService() {
       <section className={'generaltext'}>
         <div className={'generaltext__content'}>
           <h3 className='generaltext__title'><span className='yellow'>TINTING OPTIONS</span></h3>
-          <p className='generaltext__text'>This service provides privacy from outside eyes, while giving your vehicle some style. Window tints filter incoming sunlight, protecting both passengers and interior surfaces from harmful UV rays, and reducing your vehicle’s interior temperature for a more comfortable driving experience</p>
+          <p className='generaltext__text'>Window tinting is a must these days. It provides privacy, UVB, UVA protection of passengers while on the road and solar heat reflection to protect your interior from sun fade. Window tinting also creates a touch of appearance to your vehicle's exterior finish. Don't get caught in a fishbowl</p>
         </div>
 
       </section>

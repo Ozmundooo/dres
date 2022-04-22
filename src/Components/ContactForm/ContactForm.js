@@ -1,7 +1,9 @@
 import { firestore } from '../../firebase.js';
 import contactmap from '../../assets/images/contactmap.png'
 import './ContactForm.scss';
-
+import phoneIcon from '../../assets/icons/phoneIcon.png'
+import emailIcon from '../../assets/icons/emailIcon.png'
+import whatsapp from '../../assets/icons/whatsapp.png'
 function ContactForm() {
 
     function sendMessage(name, email, message) {
@@ -55,14 +57,35 @@ function ContactForm() {
       <h3 className="contactform__title"><span className="yellow">Voted #1 In KW</span></h3>
       <br></br> 
         <h4 className="contactform__subtext">
-          636 Colby Drive Unit 7B, Waterloo. ON
+          636 Colby Drive Unit 3, Waterloo. ON
           <br></br>
           <br></br>
           Monday — 9AM-5PM <br></br>
           Tues-Fri — 9AM-5PM <br></br>
-          Saturday — 9AM-5PM <br></br>
+          Saturday — 9AM-2PM <br></br>
           Sunday — Closed
         </h4>
+        <br></br>
+        <div className="contactform__iconcont">
+          <img className="contactform__icon" src={phoneIcon}></img>
+          <h4 className="contactform__subtext">
+            Phone number
+          </h4>
+        </div>
+        <br></br>
+        <div className="contactform__iconcont">
+          <img className="contactform__icon" src={emailIcon}></img>
+          <h4 className="contactform__subtext">
+            hello@dresautodetailing.com
+          </h4>
+        </div>
+        <br></br>
+        <div className="contactform__iconcont">
+          <img className="contactform__icon" src={whatsapp}></img>
+          <h4 className="contactform__subtext">
+            Whatsapp
+          </h4>
+        </div>
         <img className="contactform__image" src={contactmap}></img>
       </div>
       <form className='contactform__form' onSubmit={(e) => submitHandler(e)}>

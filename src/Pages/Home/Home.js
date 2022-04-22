@@ -19,6 +19,8 @@ import './Home.scss';
 import HomeCaro from '../../Components/HomeCaro/HomeCaro.js';
 
 
+
+
 function Home() {
 
   return (
@@ -126,9 +128,9 @@ function Home() {
                 <div className={'homeServices__content'}>
                   <img className='homeServices__image' src={''} alt="" />
                   <div className='homeServices__contentBox'>
-                    <h3 className='homeServices__name'>FEATURED PRODUCT</h3>
+                    <h3 className='homeServices__name'>PURE WASH SOAP</h3>
                     <h3 className='homeServices__text'>PH Neutral Soap</h3>
-                    <h4 className='homeServices__subtext homeServices__subtext--FP'>This solution cleans without stripping your wax or drying out your trim</h4> 
+                    <h4 className='homeServices__subtext homeServices__subtext--FP'>Cleanses your vehicle's exterior to uplift dirt and contaminants without stripping your exteriors protection</h4> 
 
                     <Link to='/specialtyservices'>
                       <button className='homeServices__button'>LEARN MORE</button>
