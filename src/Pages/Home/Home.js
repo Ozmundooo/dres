@@ -18,24 +18,25 @@ import imageAboutus from '../../assets/images/who_are_we.png';
 import './Home.scss';
 import HomeCaro from '../../Components/HomeCaro/HomeCaro.js';
 
-
-
+import { Parallax, ParallaxProvider } from 'react-scroll-parallax';
 
 function Home() {
 
   return (
     <>
-      <section className='herohome'>
+      <img src={heroHome} className='herohome__image' alt="" />      
+      {/* <section className='herohome'>
         <img src={heroHome} className='herohome__image' alt="" />
         <div className='herohome__contentbox'>
         </div>
-      </section>
+      </section> */}
 
       {/* <CarouselGeneral
         linkSource={'property'}
         title={'Florida featured properties'}
         images={flListings}
       /> */}
+      
       <div className='abouthome'>
         <StaffIntro
           image={imageAboutus}
@@ -51,23 +52,20 @@ function Home() {
           <HomeCaro
               testimonials={[
                 {
-                  name: 'Mobile services',
-                  text: "For your convenience,<span classname='yellow'> we are able to pick up your vehicle and drop it off</span> at your desired location for a fee once we complete all services requested"
-                },
-                {
                   name: 'Specialty services',
-                  text: "We think of all the little details. Get your car ready for the season"
+                  text: "We think of all the little details. Get your car ready for the season",
+                  link: "/specialtyservices"
                 },
                 {
                   name: 'In-shop services',
-                  text: "Take advantage of our tools, space and staff"
+                  text: "Take advantage of our tools, space and staff",
+                  link: "/inshopservices"
                 }
               ]}
             />
         </div>
-        
-        <br></br>
-        <section className='herohome'>
+
+        {/* <section className='herohome'>
           <img src={services} className='herohome__image' alt="" />
           <div className='herohome__contentbox'>
             <div className='homeServices'>
@@ -103,7 +101,7 @@ function Home() {
                 </div>
             </div>
             </div>
-        </section>
+        </section> */}
         
         <TestimonialText
         testimonials={[
@@ -140,7 +138,6 @@ function Home() {
             </div>
           </div>
         </section>
-
 
     </>
   );

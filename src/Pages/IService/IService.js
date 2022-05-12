@@ -35,13 +35,6 @@ function IService() {
         </div>
       </section>
       <ServiceCard
-        title="Maintenance of Handwashing"
-        subtitle="Pre rinse, ph neutral foam bath, 2 bucket method gentle hand wash, wheels, barrels, callipers decontaminated, ceramic hybrid detailer finish on painted surfaces, glass, rims"
-        description="Included in this service (door sills, trunk, hood sill, gas cap, wiper blades hand cleaned)"
-        link=""
-        image= {IS1}
-      />
-      <ServiceCard
         title="Interior cleaning"
         subtitle="Give your car the clean it deserves"
         description="When it comes to the interior of your car, we do much more than just vacuum and wipe down your dash… we get right into the details. We offer maintenance interior detailing packages to a full out interior rejuvenation. Allow our professional detailers do the magic. We utilise cutting edge equipment, techniques and voc compliant products that are safe for your vehicle to bring it back to new"
@@ -71,13 +64,6 @@ function IService() {
         link="s"
         image= {IS4}
       /> */}
-      <ServiceCard
-        title="Diamond custom floor mats"
-        subtitle=""
-        description="3d laser measured to your vehicles oem dimensions. Pu leather, 5 layers of durable protection"
-        link="s"
-        image= {IS4}
-      />
 
       <section className={'generaltext'}>
         <div className={'generaltext__content'}>

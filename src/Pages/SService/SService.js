@@ -53,7 +53,7 @@ function SService() {
 
       <ServiceCard
         title="fULL VEHICLE WRAP"
-        subtitle="Looking to change the colour of your car? Don’t like the factory colour of your car? Choosing a full car wrap conversion is the greatest hit!"
+        subtitle="Looking to change the colour of your car? Choosing a full car wrap conversion is the greatest hit!"
         description="What is car wrapping? Car wrapping is the process of completely covering a vehicle's original paint with a durable vinyl wrap of a different colour or finish like a gloss, matte, or satin finish. We can transform your car into the colour you want! Wrapping your car is the most cost-effective way of changing the colour without the big repainting exposure. When it comes to wrapping your car we have over 200 vinyl wrap options to choose from so you can be the only one in the KW region with a unique colour to your taste! See some examples below!"
         link="s"
         image= {SS4}
