@@ -23,8 +23,6 @@ function Header(props) {
 						<Link to='/about' className='header__link'>About Us</Link>
 						<Link to='/specialtyservices' className='header__link'>Specialty Services</Link>
 						<Link to='/inshopservices' className='header__link'>In Shop Services</Link> 
-						<Link to='/' className='header__link'>Products</Link>
-						<Link to='/' className='header__link'>Aftercare</Link>
 						<Link to='/contact' className='header__link'>Contact Us</Link> 
 					</div>
 				</nav>

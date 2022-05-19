@@ -20,6 +20,7 @@
 	}
 	&__content {
 		display: flex;
+		flex-direction: column;
 		align-items: center;
 		width: 100%;
 		max-width: 1300px;
@@ -35,7 +36,8 @@
 		}
 	}
 	&__image {
-		width: 45%;
+		width: 300px;
+		height: 300px;
 		@include tablet {
 			width: 45%;
 		}
@@ -43,11 +45,17 @@
 			width: 100%;
 		}
 	}
+	&__imagebox{
+		display: flex;
+		flex-direction: row;
+		gap: 2rem;
+
+	}
 	&__contentBox {
 		width: 55%;
 		display: flex;
 		flex-direction: column;
-		align-items: left;
+		align-items: center;
 		@include tablet {
 			width: 55%;
 		}
@@ -61,7 +69,7 @@
 		color: $white;
 		text-transform: capitalize;
 		@include sectionTitle;
-		font-size: 2.366rem;
+		font-size: 2.8rem;
 		@include tablet {
 			font-size: 0.9rem;
 		};
@@ -75,7 +83,8 @@
 		font-weight: 300;
 		font-size: 1.7rem;
 		margin-top: 1rem;
-		margin-bottom: 9rem;
+		margin-bottom: 2rem;
+		text-align: center;
 		&--FP{
 			margin-bottom: 4rem;
 		}
@@ -111,8 +120,8 @@
 		color: $black;
 		font-family: 'Nunito Sans', sans-serif;
 		font-weight: 700;
-		font-size: 1.1rem;
-		width: 250px;
+		font-size: 1.3rem;
+		width: 270px;
 		height: 50px;
 		@include tablet {
 			font-size: 0.5rem;
@@ -198,6 +207,32 @@
 		@include tablet{
 			font-size: 0.989rem ;
 			width: 100%;
+		}
+	}
+}
+.logostitle{
+	
+	&__cont{
+		background-color: #1A1A1A;
+	}
+	&__text{
+		margin-top: 5rem;
+		@include sectionTitle;
+		margin-bottom: 2rem;
+		
+		color: $white;
+		font-size: 2.8rem;
+		text-align: center;
+		padding-top: 4rem;
+		padding-bottom: 2rem;
+		margin-bottom: 0;
+		@include tablet {
+			font-size: 1.1rem;
+			margin-bottom: 1.833rem;
+		}
+		@include mobile {
+			font-size: 0.889rem;
+			margin-bottom: 1.444rem;
 		}
 	}
 }

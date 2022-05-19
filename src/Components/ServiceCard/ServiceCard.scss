@@ -5,7 +5,7 @@
 	width: 100%;
 	display: flex;
 	justify-content: center;
-	padding: 2rem 0 4.5rem;
+	padding: 0rem 0 4.5rem;
 	@include tablet {
 		padding: 2.813rem 0 1rem;
 	}
@@ -134,7 +134,7 @@
 	}
 	&__buttonbox {
 		display: flex;
-		margin-top: 2rem;
+		
 		@include tablet {
 			margin-top: 1.833rem;
 		};
@@ -142,10 +142,28 @@
 			margin-top: 0.833rem;
 		}
 	}
-	&__link {
-
+	&__price {
+		@include sectionTitle;
+		color: $yellow!important;
+		width: 50%;
+        font-size: 1.3rem;
+        font-weight: 600;
+		@include tablet {
+			text-align: left;
+			font-size: 1.1rem;
+		}
+		@include mobile {
+			font-size: 0.889rem;
+		}
+	}
+	&__pricebox{
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		margin-top: 1rem;
 	}
 	&__button {
+		width: 50%;
 		background-color: $yellow;
 		border-radius: 38px;
 		color: $black;

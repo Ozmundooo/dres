@@ -1,6 +1,7 @@
 import Carousel, { consts } from 'react-elastic-carousel';
 import icnRight from '../../assets/icons/homeArrowRight.svg';
 import icnLeft from '../../assets/icons/homeArrowLeft.svg';
+import { Link } from 'react-router-dom';
 import './HomeCaro.scss';
 
 function HomeCaro(props) {
@@ -31,6 +32,10 @@ function HomeCaro(props) {
           <div className='HomeCaro__item'>
             <h4 className='HomeCaro__name' dangerouslySetInnerHTML={{__html: testimonial.name}}></h4>
             <p className='HomeCaro__text' dangerouslySetInnerHTML={{__html: testimonial.text}}></p>
+            <br></br>
+            <Link to={testimonial.link}>
+              <button className='HomeCaro__button'>LEARN MORE</button>
+            </Link>
           </div>
         );
       });
