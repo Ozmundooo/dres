@@ -24,7 +24,10 @@ function Home() {
 
   return (
     <>
-      <img src={heroHome} className='herohome__image' alt="" />      
+    <ParallaxProvider>
+      <Parallax className='herohome' translateY={['-100px', '70px']}>
+        <img src={heroHome} className='herohome__image' alt="" />   
+      </Parallax>   
       {/* <section className='herohome'>
         <img src={heroHome} className='herohome__image' alt="" />
         <div className='herohome__contentbox'>
@@ -138,7 +141,7 @@ function Home() {
             </div>
           </div>
         </section>
-
+        </ParallaxProvider>
     </>
   );
 }

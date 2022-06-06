@@ -12,12 +12,45 @@ import rupes from "../../assets/images/rupes.png";
 
 import suntek from "../../assets/images/suntek.png";
 import xpel from "../../assets/images/Xpel.png";
+import { Link } from 'react-router-dom';
 
 
 
 function LogoCaro(props) {
-
-  const logos=[threeD, threeM, bigboi, feynlab, igl, rupes,suntek, xpel];
+  const logos=[
+    {
+      image: threeD,
+      link: 'https://google.com'
+    },
+    {
+      image: threeM,
+      link: 'https://www.3m.com'
+    },
+    {
+      image: feynlab,
+      link: 'https://www.feynlab.com'
+    },
+    {
+      image: bigboi,
+      link: 'https://ibigboi.com'
+    },
+    {
+      image: igl,
+      link: 'https://iglcoatingscanada.com'
+    },
+    {
+      image: rupes,
+      link: 'https://www.rupes.com'
+    },
+    {
+      image: suntek,
+      link: 'https://suntekfilms.com'
+    },
+    {
+      image: xpel,
+      link: 'https://www.xpel.com'
+    }
+  ]
 
 	const breakPoints = [
     { width: 1, itemsToShow: 1 },
@@ -43,7 +76,9 @@ function LogoCaro(props) {
       let renderedText = logos.map((logo) => {
         return (
           <div className='LogoCarousel__item'>
-            <img className='LogoCarousel__logo'src={logo}></img>
+            <a target="_blank" href={logo.link}>
+              <img className='LogoCarousel__logo'src={logo.image}></img>
+            </a>
           </div>
         );
       });

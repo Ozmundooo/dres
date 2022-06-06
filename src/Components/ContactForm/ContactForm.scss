@@ -23,6 +23,7 @@
 	&__title {
 		color: $grey;
 		margin-bottom: 2.5rem;
+		font-size: 3.0rem;
 		@include tablet {
 			font-size: 1.111rem;
 			margin-bottom: 1rem;
@@ -82,6 +83,7 @@
 		font-weight: 700;
 		font-size: 1.1rem;
 		color: $white;
+		text-transform: uppercase;
 		@include tablet {
 			font-size: 0.756rem;
 			margin-bottom: 0.438rem;

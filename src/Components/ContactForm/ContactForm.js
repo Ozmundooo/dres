@@ -54,22 +54,20 @@ function ContactForm() {
   return (
     <section className='contactform'>
       <div className='contactform__textbox'>
-      <h3 className="contactform__title"><span className="yellow">Voted #1 In KW</span></h3>
+      <h3 className="contactform__title"><span className="yellow">GET IN TOUCH</span></h3>
       <br></br> 
         <h4 className="contactform__subtext">
           636 Colby Drive Unit 3, Waterloo. ON
           <br></br>
           <br></br>
-          Monday — 9AM-5PM <br></br>
-          Tues-Fri — 9AM-5PM <br></br>
-          Saturday — 9AM-2PM <br></br>
-          Sunday — Closed
+          Mon-Fri — 9AM-5PM <br></br>
+          Sat-Sun — 9AM-2PM 
         </h4>
         <br></br>
         <div className="contactform__iconcont">
           <img className="contactform__icon" src={phoneIcon}></img>
           <h4 className="contactform__subtext">
-            Phone number
+            <a className="contactform__subtext" href="sms:(+1)(4168430026)">4168430026</a>
           </h4>
         </div>
         <br></br>
@@ -96,6 +94,13 @@ function ContactForm() {
           name='name'
           required={true}
         />
+        <label className='contactform__label' htmlFor="email">Enter Your phone number *</label>
+        <input
+          className='contactform__textinput'
+          type="email"
+          name='email'
+          required={true}
+        />
         <label className='contactform__label' htmlFor="email">Enter your email *</label>
         <input
           className='contactform__textinput'
@@ -103,7 +108,7 @@ function ContactForm() {
           name='email'
           required={true}
         />
-        <label className='contactform__label' htmlFor="email">Enter who reffered you</label>
+        <label className='contactform__label' htmlFor="email">How did you hear about us?</label>
         <input
           className='contactform__textinput'
           type="text"
@@ -111,10 +116,7 @@ function ContactForm() {
           required={false}
         />
 
-        <label className='contactform__label' htmlFor="carinfo">Enter your car info *</label>
-        <textarea className='contactform__textarea' name="carinfo" required={false}></textarea>
-        <br></br>
-        <label className='contactform__label' htmlFor="message">Enter your message *</label>
+        <label className='contactform__label' htmlFor="message">enter a brief message and vehicle details *</label>
         <textarea className='contactform__textarea' name="message" required={true}></textarea>
         <button className='contactform__button' type='submit'>SUBMIT</button>
       </form>

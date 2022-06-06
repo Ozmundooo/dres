@@ -8,11 +8,17 @@ import EmailSignup from "../../Components/EmailSignup/EmailSignup";
 import heroAbout from "../../assets/images/hero_about.png";
 import imgDre from "../../assets/images/img_dre.png";
 
+import Steven from "../../assets/images/Steven.png";
+import Emily from "../../assets/images/Emily.png";
+import Tiago from "../../assets/images/Tiago.png";
+import Jacob from "../../assets/images/Tiago.png";
+
 import R2017 from "../../assets/images/R2017.png";
 import R2018 from "../../assets/images/R2018.png";
 import R2020 from "../../assets/images/R2020.png";
 import R2021 from "../../assets/images/R2021.png";
 import { Link } from 'react-router-dom';
+import { ParallaxProvider, Parallax, ParallaxBanner } from 'react-scroll-parallax';
 import "./About.scss";
 
 import threeM from "../../assets/images/3M.png";
@@ -21,8 +27,11 @@ function About() {
 
   return (
     <>
+    <ParallaxProvider>
       <section className="heroabout">
+        <Parallax className='herohome' translateY={['-100px', '70px']}>
         <img src={heroAbout} className="heroabout__image" alt="" />
+        </Parallax>
       </section>
       <GeneralText
         title={"ABOUT US"}
@@ -44,6 +53,59 @@ function About() {
         </div>
       </div>
 
+      <div className="team">
+        <h3 className="team__title">MEET THE TEAM</h3>
+        <div className="team__blackbox">
+          <div className="team__contbox">
+            
+              <div className="team__memberbox">
+                <img className="team__image team__image--inverse" src={Steven} alt="" />
+                <div className="team__textbox">
+                <h4 className="team__name">Steven</h4>
+                <h4 className="team__job">Job Position</h4>
+                <h4 className="team__desc">Time at Dre’s: Since 2020<br></br>
+                    Favourite Car: 1967 Mustang Fastback<br></br>
+                    About: Car enthusiast who enjoys all things car related
+                </h4>
+                </div>
+            </div>
+            <div className="team__memberbox">
+                <img className="team__image team__image--inverse" src={Emily} alt="" />
+                <div className="team__textbox">
+                  <h4 className="team__name">Emily</h4>
+                  <h4 className="team__job">Job Position</h4>
+                  <h4 className="team__desc">Time at Dre’s: Since 2021<br></br>
+                      Favourite Car: 2022 Lexus Is300<br></br>
+                      About: Creative, hard working, car enthusiast
+                  </h4>
+                </div>
+            </div>
+            <div className="team__memberbox">
+                <img className="team__image" src={Tiago} alt="" />
+                <div className="team__textbox">
+                  <h4 className="team__name">Tiago</h4>
+                  <h4 className="team__job">Job Position</h4>
+                  <h4 className="team__desc">Time at Dre’s: Since 2020<br></br>
+                      Favourite Car: Ferrari F40<br></br>
+                      About: Passionate and detail oriented. Friendly. Loves Mazda.
+                  </h4>
+                </div>
+            </div>
+            <div className="team__memberbox">
+                <img className="team__image" src={Jacob} alt="" />
+                <div className="team__textbox">
+                  <h4 className="team__name">Jacob</h4>
+                  <h4 className="team__job">Job Position</h4>
+                  <h4 className="team__desc">Time at Dre’s: Since 2020<br></br>
+                      Favourite Car: Ferrari F40<br></br>
+                      About: Passionate and detail oriented. Friendly. Loves Mazda.
+                  </h4>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
       <div className="voted">
         <div className={"voted__content"}>
         <h3 className="voted__name"><span className="yellow">VOTED #1 IN KW</span></h3>
@@ -66,13 +128,16 @@ function About() {
           </div>
         </div>
       </div>
+
       <div className="logostitle__cont">
         <h3 className="logostitle__text">BRANDS WE USE</h3>
       </div>
+
       <LogoCaro        
       />
 
       <ContactForm />
+      </ParallaxProvider>
     </>
   );
 }

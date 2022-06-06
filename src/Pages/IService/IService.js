@@ -2,7 +2,7 @@ import React from 'react';
 import { firestore } from '../../firebase.js';
 import { Link } from 'react-router-dom';
 import Iframe from 'react-iframe'
-
+import { ParallaxProvider, Parallax, ParallaxBanner } from 'react-scroll-parallax';
 import ServiceCard from '../../Components/ServiceCard/ServiceCard.js';
 import ServiceCaro from '../../Components/ServiceCaro/ServiceCaro.js';
 
@@ -23,6 +23,7 @@ function IService() {
       title:"Interior cleaning",
       subtitle:"Give your car the clean it deserves",
       description:"When it comes to the interior of your car, we do much more than just vacuum and wipe down your dash… we get right into the details. We offer maintenance interior detailing packages to a full out interior rejuvenation. Allow our professional detailers do the magic. We utilise cutting edge equipment, techniques and voc compliant products that are safe for your vehicle to bring it back to new",
+      warrenty: 'Warrenty: Details',
       link:"s",
       price: "400",
       image: IS2
@@ -31,6 +32,7 @@ function IService() {
       title:"Interior deep cleaning",
       subtitle:"Give your car the clean it deserves",
       description:"This happens often so don't feel left out. We can go as far as unbolting your seats to gain further access to imbedded crevices. We’re all about the details",
+      warrenty: 'Warrenty: Details',
       link:"s",
       price: "400",
       image: IS3
@@ -39,6 +41,7 @@ function IService() {
       title:"Interior Steam cleaning",
       subtitle:"Your car’s interior will be spotless",
       description:"Steam treatment is a specialty method of hot vapour surface cleaning without the use of detailing products. Steam cleaning is very effective with uplifting up to 99% of bacteria, viruses and germs as well loosens imbedded dirt and grime in between crevices and surfaces. Steam treatment applies to all interior surfaces such as glass, door handles, steering wheel, seats, seat belts, dash, trim and carpet",
+      warrenty: 'Warrenty: Details',
       link:"s",
       price: "400",
       image: IS4
@@ -46,8 +49,11 @@ function IService() {
   ];
   return (
     <>
+    <ParallaxProvider>
       <section className='herohome'>
+        <Parallax className='herohome' translateY={['-100px', '70px']}>
         <img src={heroHome} className='herohome__image' alt="" />
+        </Parallax>
         <div className='herohome__contentbox'>
         </div>
       </section>
@@ -75,10 +81,15 @@ function IService() {
 
       <section className={'generaltext'}>
         <div className={'generaltext__content'}>
-          <h3 className='generaltext__title'><span className='yellow'>ADDITIONAL SERVICES</span></h3>
-          <p className='generaltext__text'>Window tinting is a must these days. It provides privacy, UVB, UVA protection of passengers while on the road and solar heat reflection to protect your interior from sun fade. Window tinting also creates a touch of appearance to your vehicle's exterior finish. Don't get caught in a fishbowl</p>
+          <h3 className='generaltext__title'><span className='yellow'>DETAILING POLICY</span></h3>
+          <p className='generaltext__text'>Please note rates are for vehicles in average condition. Any vehicle with excess soiling, need of extra cleaning, stains or pet hair will be an additional charge. Price may be subject to change upon visual inspection of the vehicle. We do our part in communicating with you with the needs of your vehicle.</p>
         </div>
-
+      </section>
+      <section className={'generaltext'}>
+        <div className={'generaltext__content'}>
+          <h3 className='generaltext__title'><span className='yellow'>ADD-ONS / TINTING OPTIONS</span></h3>
+          <p className='generaltext__text'>This service provides privacy from outside eyes, while giving your vehicle some style. Window tints filter incoming sunlight, protecting both passengers and interior surfaces from harmful UV rays, and reducing your vehicle’s interior temperature for a more comfortable driving experience.<span className='yellow'>Starting at $165.00.</span></p>
+        </div>
       </section>
       <section className= 'iframe'>
       <Iframe url="https://ozmundooo.github.io/TintSim/"
@@ -89,6 +100,7 @@ function IService() {
           display="initial"
           position="relative"/>
       </section>
+      </ParallaxProvider>
     </>
   );
 }
