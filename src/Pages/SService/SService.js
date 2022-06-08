@@ -17,6 +17,7 @@ import SS4 from '../../assets/images/SS_service4.png';
 import SS5 from '../../assets/images/SS_service5.png';
 
 import './SService.scss';
+import CarPreview from '../../Components/CarPreview/CarPreview.js';
 function SService() {
 
   const services = [
@@ -110,15 +111,7 @@ function SService() {
         </div>
 
       </section>
-      <section className= 'iframe'>
-      <Iframe url="https://ozmundooo.github.io/TintSim/"
-          width="600px"
-          height="450px"
-          id="myId"
-          className="myClassname"
-          display="initial"
-          position="relative"/>
-      </section>
+      <CarPreview/>
       </ParallaxProvider> 
     </>
   );

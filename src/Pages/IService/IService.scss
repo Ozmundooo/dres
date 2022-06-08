@@ -113,6 +113,43 @@
 	}
 }
 
+.pdfButton{
+	&__buttonbox {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		@include tablet {
+			margin-top: 1.833rem;
+		};
+		@include mobile {
+			margin-top: 0.833rem;
+		}
+	}
+	&__button {
+		width: 50%;
+		background-color: $yellow;
+		border-radius: 38px;
+		color: $black;
+		font-family: 'Nunito Sans', sans-serif;
+		font-weight: 700;
+		font-size: 1.1rem;
+		width: 330px;
+		height: 50px;
+		margin: 0 0rem;
+		@include tablet {
+			width: 113px;
+			height: 34px;
+			font-size: 0.5rem;
+		};
+		@include mobile {
+			width: 130px;
+			height: 28px;
+			margin: 0 0.566rem;
+			font-size: 0.544rem;
+		}
+	}
+}
 
 .yellow{
 	color: $yellow;
