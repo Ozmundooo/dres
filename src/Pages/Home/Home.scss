@@ -1,6 +1,20 @@
 @import '../../partials/colors';
 @import '../../partials/mixins';
 
+.parallax {
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+
+  }
+  
+  .hero {
+	background-image: url('/assets/images/hero_home.png');
+	height: 420px;
+  }
+  
 .herohome {
 	width: 100%;
 	

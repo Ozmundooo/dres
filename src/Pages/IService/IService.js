@@ -82,14 +82,17 @@ function IService() {
   ];
   return (
     <>
-    <ParallaxProvider>
-      <section className='herohome'>
-        <Parallax className='herohome' translateY={['-100px', '70px']}>
+      <div class="parallax IShero">
+      
+      </div>
+
+      {/* <section className='herohome'>
+
         <img src={heroHome} className='herohome__image' alt="" />
-        </Parallax>
+
         <div className='herohome__contentbox'>
         </div>
-      </section>
+      </section> */}
       <section className={'generaltext'}>
         <div className={'generaltext__content'}>
           <h3 className='generaltext__title'>IN-SHOP SERVICES</h3>
@@ -145,7 +148,7 @@ function IService() {
           <button className='pdfButton__button'>CONTACT US</button>
         </Link>
       </div>
-      </ParallaxProvider>
+
     </>
   );
 }

@@ -1,6 +1,9 @@
 import React from 'react';
 import { firestore } from '../../firebase.js';
 import { Link } from 'react-router-dom';
+
+
+
 import CarouselGeneral from '../../Components/CarouselGeneral/CarouselGeneral';
 import StaffIntro from '../../Components/StaffIntro/StaffIntro';
 import Values from '../../Components/Values/Values';
@@ -18,16 +21,18 @@ import imageAboutus from '../../assets/images/who_are_we.png';
 import './Home.scss';
 import HomeCaro from '../../Components/HomeCaro/HomeCaro.js';
 
-import { Parallax, ParallaxProvider } from 'react-scroll-parallax';
+
 
 function Home() {
 
   return (
     <>
-    <ParallaxProvider>
-      <Parallax className='herohome' translateY={['-100px', '70px']}>
-        <img src={heroHome} className='herohome__image' alt="" />   
-      </Parallax>   
+     <div class="parallax hero">
+      
+    </div>
+
+      {/* <img src={heroHome} className='herohome__image' alt="" /> */}
+
       {/* <section className='herohome'>
         <img src={heroHome} className='herohome__image' alt="" />
         <div className='herohome__contentbox'>
@@ -141,7 +146,7 @@ function Home() {
             </div>
           </div>
         </section>
-        </ParallaxProvider>
+  
     </>
   );
 }

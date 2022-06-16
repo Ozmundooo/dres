@@ -29,7 +29,7 @@ function HomeCaro(props) {
     if (props.testimonials) {
       let renderedText = props.testimonials.map(testimonial => {
         return (
-          <div className='HomeCaro__item'>
+          <div className='HomeCaro__item parallax'>
             <h4 className='HomeCaro__name' dangerouslySetInnerHTML={{__html: testimonial.name}}></h4>
             <p className='HomeCaro__text' dangerouslySetInnerHTML={{__html: testimonial.text}}></p>
             <br></br>

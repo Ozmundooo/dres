@@ -1,27 +1,28 @@
 @import '../../partials/colors';
 @import '../../partials/mixins';
 .CarPreview{
-    align-items: center;
-    justify-content: center;
+    margin: auto;
+    width: 60%;
     &__imagecont{
-        align-items: center;
-        justify-content: center;
+        
+       
     }
     &__image{
-    margin: auto;
+        width: 100%;
     }
     &__thumbscont{
         margin-top: 1rem;
         display: flex;
         flex-direction: row;
-        justify-content: center;
-        gap: 2rem;
+       
     }
     &__thumb{
-        width: 200px;
-        height: 150px;
+        width: 100px;
+        height: 50px;
+        border-radius: 12px 12px 0px 0px;
     }
     &__thumbselected{
         border: 3px solid white;
+        
     }
 }

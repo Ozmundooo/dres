@@ -92,25 +92,18 @@ function SService() {
   ];
   return (
     <>
-   <ParallaxProvider>
-    {/* <ParallaxBanner
-        layers={[
-          {
-            image: '../../assets/images/SS_hero.png',
-            speed: -2,
-          },
-        ]}
-        style={{ aspectRatio: '2 / 1' }}
-      /> */}
+      <div class="parallax SShero">
+      
+      </div>
     
       
-        <section className='herohome'>
-            <Parallax className='herohome' translateY={['-100px', '70px']}>
+        {/* <section className='herohome'>
+
               <img src={heroHome} className='herohome__image' alt="" />
-            </Parallax>
+
             <div className='herohome__contentbox'>
             </div>
-          </section>
+          </section> */}
      
 
 
@@ -133,7 +126,7 @@ function SService() {
 
       </section>
       <CarPreview/>
-      </ParallaxProvider> 
+
     </>
   );
 }

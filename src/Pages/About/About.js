@@ -27,11 +27,10 @@ function About() {
 
   return (
     <>
-   
-      <section className="heroabout">
-         <img src={heroAbout} className="heroabout__image" alt="" />
-        
-      </section>
+       <div class="parallax abouthero">
+      
+      </div>
+
       <GeneralText
         title={"ABOUT US"}
         text={
