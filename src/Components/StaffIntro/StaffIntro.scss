@@ -6,6 +6,7 @@
 	width: 100%;
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	@include tablet {
 		padding: 2rem 4.813rem 2rem 3.875rem;
 	}
@@ -28,7 +29,7 @@
 		}
 	}
 	&__image {
-		width: 60%;
+		width: 45%;
 		@include tablet {
 			width: 45%;
 		}
@@ -37,7 +38,7 @@
 		}
 	}
 	&__contentBox {
-		width: 40%;
+		width: 55%;
 		display: flex;
 		flex-direction: column;
 		align-items: center;

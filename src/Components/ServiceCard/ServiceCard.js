@@ -14,7 +14,7 @@ function ServiceCard(props) {
             <p className='ServiceCard__text'  dangerouslySetInnerHTML={{__html: props.description}}></p>
             <p className='ServiceCard__text yellow'  dangerouslySetInnerHTML={{__html: props.warrenty}}></p>
             <div className='ServiceCard__pricebox'>
-            <h3 className='ServiceCard__price' dangerouslySetInnerHTML={{__html: "Starting at $" + props.price}}></h3>
+            <h3 className='ServiceCard__price' dangerouslySetInnerHTML={{__html: props.price}}></h3>
             { 
                 props.link ?
                 <div className='ServiceCard__buttonbox'>

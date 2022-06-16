@@ -67,7 +67,7 @@ function ContactForm() {
         <div className="contactform__iconcont">
           <img className="contactform__icon" src={phoneIcon}></img>
           <h4 className="contactform__subtext">
-            <a className="contactform__subtext" href="sms:(+1)(4168430026)">4168430026</a>
+            <a className="contactform__subtext" href="sms:(+1)(2262011994)">(226) 201-1994</a>
           </h4>
         </div>
         <br></br>

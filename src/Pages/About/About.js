@@ -27,11 +27,10 @@ function About() {
 
   return (
     <>
-    <ParallaxProvider>
+   
       <section className="heroabout">
-        <Parallax className='herohome' translateY={['-100px', '70px']}>
-        <img src={heroAbout} className="heroabout__image" alt="" />
-        </Parallax>
+         <img src={heroAbout} className="heroabout__image" alt="" />
+        
       </section>
       <GeneralText
         title={"ABOUT US"}
@@ -62,7 +61,7 @@ function About() {
                 <img className="team__image team__image--inverse" src={Steven} alt="" />
                 <div className="team__textbox">
                 <h4 className="team__name">Steven</h4>
-                <h4 className="team__job">Job Position</h4>
+                {/* <h4 className="team__job">Job Position</h4> */}
                 <h4 className="team__desc">Time at Dre’s: Since 2020<br></br>
                     Favourite Car: 1967 Mustang Fastback<br></br>
                     About: Car enthusiast who enjoys all things car related
@@ -73,7 +72,7 @@ function About() {
                 <img className="team__image team__image--inverse" src={Emily} alt="" />
                 <div className="team__textbox">
                   <h4 className="team__name">Emily</h4>
-                  <h4 className="team__job">Job Position</h4>
+                  {/* <h4 className="team__job">Job Position</h4> */}
                   <h4 className="team__desc">Time at Dre’s: Since 2021<br></br>
                       Favourite Car: 2022 Lexus Is300<br></br>
                       About: Creative, hard working, car enthusiast
@@ -84,7 +83,7 @@ function About() {
                 <img className="team__image" src={Tiago} alt="" />
                 <div className="team__textbox">
                   <h4 className="team__name">Tiago</h4>
-                  <h4 className="team__job">Job Position</h4>
+                  {/* <h4 className="team__job">Job Position</h4> */}
                   <h4 className="team__desc">Time at Dre’s: Since 2020<br></br>
                       Favourite Car: Ferrari F40<br></br>
                       About: Passionate and detail oriented. Friendly. Loves Mazda.
@@ -95,10 +94,10 @@ function About() {
                 <img className="team__image" src={Jacob} alt="" />
                 <div className="team__textbox">
                   <h4 className="team__name">Jacob</h4>
-                  <h4 className="team__job">Job Position</h4>
+                  {/* <h4 className="team__job">Job Position</h4> */}
                   <h4 className="team__desc">Time at Dre’s: Since 2020<br></br>
-                      Favourite Car: Ferrari F40<br></br>
-                      About: Passionate and detail oriented. Friendly. Loves Mazda.
+                      Favourite Car: 2017 Nissan GTR<br></br>
+                      About: Loves fitness, challenges, big car enthusiasts, and speed
                   </h4>
                 </div>
             </div>
@@ -137,7 +136,7 @@ function About() {
       />
 
       <ContactForm />
-      </ParallaxProvider>
+      
     </>
   );
 }
