@@ -61,7 +61,7 @@ function ContactForm() {
           <br></br>
           <br></br>
           Mon-Fri — 9AM-5PM <br></br>
-          Sat-Sun — 9AM-2PM 
+          Sat-Sun — Closed
         </h4>
         <br></br>
         <div className="contactform__iconcont">

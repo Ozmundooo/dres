@@ -11,7 +11,7 @@ import imgDre from "../../assets/images/img_dre.png";
 import Steven from "../../assets/images/Steven.png";
 import Emily from "../../assets/images/Emily.png";
 import Tiago from "../../assets/images/Tiago.png";
-import Jacob from "../../assets/images/Tiago.png";
+import Jacob from "../../assets/images/Jacob.png";
 
 import R2017 from "../../assets/images/R2017.png";
 import R2018 from "../../assets/images/R2018.png";
