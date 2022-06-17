@@ -1,5 +1,5 @@
 import './ServiceCard.scss';
-
+import { Link } from 'react-router-dom';
 function ServiceCard(props) {
  
   return (
@@ -15,15 +15,11 @@ function ServiceCard(props) {
             <p className='ServiceCard__text yellow'  dangerouslySetInnerHTML={{__html: props.warrenty}}></p>
             <div className='ServiceCard__pricebox'>
             <h3 className='ServiceCard__price' dangerouslySetInnerHTML={{__html: props.price}}></h3>
-            { 
-                props.link ?
-                <div className='ServiceCard__buttonbox'>
-                    <a className='ServiceCard__link' href={props.link}>
-                    <button className='ServiceCard__button'>BOOK APPOINTMENT</button>
-                    </a>
-                </div> :
-                <></>
-                }
+            <div className='ServiceCard__buttonbox'>
+              <Link className='ServiceCard__link' to='/contact'>
+                <button className='ServiceCard__button'>BOOK APPOINTMENT</button>
+              </Link>
+            </div>
             </div>
             </div>
          </div>

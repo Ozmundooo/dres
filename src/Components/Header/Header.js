@@ -26,9 +26,9 @@ function Header(props) {
 						<Link to='/contact' className='header__link'>Contact Us</Link> 
 					</div>
 				</nav>
-				<a className='header__buttonbox' href="#" target="_blank">
+				<Link className='header__buttonbox' to='/contact'>
 					<button className='header__button'>BOOK APPOINTMENT</button>
-				</a>
+				</Link>
 			</header>
 		</>
 	);

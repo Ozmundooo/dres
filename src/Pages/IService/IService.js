@@ -142,6 +142,10 @@ function IService() {
           position="relative"/>
       </section>
 
+      <section className={'generaltext'}>
+        <h3 className='generaltext__title'><span className='yellow'>TINT GRADES</span></h3>
+      </section>
+
       <div className='pdfButton__buttonbox'>
         <h3 className='generaltext__title'>HAVE A QUESTION?</h3>
         <Link to={pdf}>
