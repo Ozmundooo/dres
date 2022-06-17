@@ -142,8 +142,23 @@ function IService() {
           position="relative"/>
       </section>
 
-      <section className={'generaltext'}>
-        <h3 className='generaltext__title'><span className='yellow'>TINT GRADES</span></h3>
+      <section className='tint'>
+        <div>
+          <h3 className='generaltext__title'><span className='yellow'>TINT GRADES</span></h3>
+        </div>
+        
+        <div className='tint__catagories'>
+          <div className='tint__catagory'>
+            <h3 className='tint__title'><span className='yellow'>SUNTEK CARBON</span></h3>
+            <h4 className='tint__sub'>- 99% UV rejection</h4>
+          </div>
+          <div className='tint__catagory'>
+            <h3 className='tint__title'><span className='yellow'>SUNTEK CiR CERAMIC</span></h3>
+            <h4 className='tint__sub'>- 99% UV rejection</h4>
+            <h4 className='tint__sub'>- Higher solar rejection</h4>
+            <h4 className='tint__sub'>- Less heat dissipation inside the vehicle</h4>
+          </div>
+        </div>
       </section>
 
       <div className='pdfButton__buttonbox'>

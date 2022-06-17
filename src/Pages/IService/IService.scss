@@ -165,6 +165,31 @@
 	}
 }
 
+.tint{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-bottom: 2rem;
+	&__catagories{
+		display: flex;
+		min-width: 1000px;
+		flex-direction: row;	
+		justify-content: center;
+		
+	}
+	&__catagory{
+		width: 440px;
+	}
+	&__title{
+		font-family: 'Nunito Sans', sans-serif;
+		font-weight: 900;
+		font-size: 1.6rem;
+	}
+	&__sub{
+		color: $white;
+	}
+}
+
 .yellow{
 	color: $yellow;
 }
