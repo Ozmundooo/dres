@@ -167,26 +167,35 @@
 
 .tint{
 	display: flex;
-	align-items: center;
 	flex-direction: column;
+	align-items: center;
 	margin-bottom: 2rem;
+	&__maintitle{
+		font-family: 'Nunito Sans', sans-serif;
+		font-weight: 900;
+		font-size: 2rem;
+		text-align: center;
+		margin-bottom: 1rem;
+	}
 	&__catagories{
 		display: flex;
-		min-width: 1000px;
-		flex-direction: row;	
-		justify-content: center;
-		
+		flex-direction: row;
+		gap: 8rem;
 	}
 	&__catagory{
-		width: 440px;
+		width: auto;
+
 	}
 	&__title{
 		font-family: 'Nunito Sans', sans-serif;
-		font-weight: 900;
+		font-weight: 600;
 		font-size: 1.6rem;
 	}
 	&__sub{
 		color: $white;
+		font-weight: 400;
+		font-size: 1.3rem;
+
 	}
 }
 

@@ -127,8 +127,8 @@ function Home() {
           }
         ]}
       />
-      <section className='herohome'>
-          <img src={featured} className='herohome__image' alt="" />
+      <section className='herohome parallax soap'>
+          <div></div>
           <div className='herohome__contentbox'>
           <div className='homeServices'>
                 <div className={'homeServices__content'}>

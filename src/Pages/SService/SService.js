@@ -125,7 +125,21 @@ function SService() {
         </div>
 
       </section>
+      <br></br>
       <CarPreview/>
+      <section className={'generaltext'}>
+        <div className={'generaltext__content'}>
+          <p className='generaltext__text'>We work with 3M, Avery Denison, KPMF and more</p>
+        </div>
+      </section>
+      <br></br>
+      <br></br>
+      <div className='pdfButton__buttonbox'>
+        <h3 className='generaltext__title'>HAVE A QUESTION?</h3>
+        <Link to='/contact'>
+          <button className='pdfButton__button'>CONTACT US</button>
+        </Link>
+      </div>
 
     </>
   );
