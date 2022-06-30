@@ -75,16 +75,18 @@
 		}
 
 		@include mobile{
-			height: 250px;
+			height: 365px;
 		}
     }
     &__textbox{
 		width: 60%;
        margin-left: 3rem;
 	   @include tablet{
+		width: 100%;
 		   margin: 1rem 0;
 		   margin-left: 0;
 	   }
+	   
     }
 	&__title {
 		@include sectionTitle;

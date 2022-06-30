@@ -2,14 +2,6 @@
 @import '../../partials/mixins';
 
 
-.parallax {
-	position: relative;
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-
-  }
 
 
 .HomeCaro {
@@ -21,7 +13,7 @@
 	background-image: url('/assets/images/mobile_services_bg.png');
 	height: 500px;
 	@include mobile{
-		height: 150px;
+		height: 200px;
 	}
 	padding: 3rem 7.778rem;
 ;
@@ -64,7 +56,7 @@
 		color: $white;
 		font-size: 1.6rem;
 		font-weight: 600;
-		margin-top: .6rem;
+		margin-top: .9rem;
 		@include tablet {
 			font-size: 0.667rem;
 			line-height: 1.12rem;

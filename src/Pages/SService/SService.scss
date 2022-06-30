@@ -1,14 +1,6 @@
 @import '../../partials/colors';
 @import '../../partials/mixins';
 
-.parallax {
-	position: relative;
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-
-  }
   
   .SShero {
 	background-image: url('/assets/images/SS_hero.png');

@@ -1,14 +1,7 @@
 @import '../../partials/colors';
 @import '../../partials/mixins';
 
-.parallax {
-	position: relative;
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
 
-  }
   
   .IShero {
 	background-image: url('/assets/images/IS_hero.png');
@@ -137,7 +130,7 @@
 			margin-top: 1.833rem;
 		};
 		@include mobile {
-			margin-top: 0.833rem;
+			
 		}
 	}
 	&__button {
@@ -152,15 +145,16 @@
 		height: 50px;
 		margin: 0 0rem;
 		@include tablet {
-			width: 113px;
-			height: 34px;
-			font-size: 0.5rem;
+			width: 200px;
+			height: 38px;
+			margin: 0 0.566rem;
+			font-size: 0.744rem;
 		};
 		@include mobile {
-			width: 130px;
-			height: 28px;
+			width: 200px;
+			height: 38px;
 			margin: 0 0.566rem;
-			font-size: 0.544rem;
+			font-size: 0.744rem;
 		}
 	}
 }
@@ -170,31 +164,75 @@
 	flex-direction: column;
 	align-items: center;
 	margin-bottom: 2rem;
+	@include tablet{
+
+	}
+	@include mobile{
+
+	}
 	&__maintitle{
 		font-family: 'Nunito Sans', sans-serif;
 		font-weight: 900;
 		font-size: 2rem;
 		text-align: center;
 		margin-bottom: 1rem;
+		@include tablet{
+			font-size: 0.889rem;
+		}
+		@include mobile{
+			font-size: 0.889rem;
+		}
 	}
 	&__catagories{
 		display: flex;
 		flex-direction: row;
-		gap: 8rem;
+		justify-content: center;
+		gap: 0rem;
+		@include tablet{
+			flex-direction: column;
+			align-items: center;
+			width: 100%;
+			
+		}
+		@include mobile{
+			
+		}
 	}
 	&__catagory{
-		width: auto;
-
+		display: flex;
+		flex-direction: column;
+		margin: 0 5rem;
+		text-align: left;
+		@include tablet{
+			margin: 0;
+			text-align: center;
+			margin-bottom: 1rem;
+		}
+		@include mobile{
+			
+		}
 	}
 	&__title{
 		font-family: 'Nunito Sans', sans-serif;
 		font-weight: 600;
 		font-size: 1.6rem;
+		@include tablet{
+			font-size: 0.778rem;
+		}
+		@include mobile{
+			font-size: 0.778rem;
+		}
 	}
 	&__sub{
 		color: $white;
 		font-weight: 400;
 		font-size: 1.3rem;
+		@include tablet{
+			font-size: 0.778rem;
+		}
+		@include mobile{
+			font-size: 0.778rem;
+		}
 
 	}
 }

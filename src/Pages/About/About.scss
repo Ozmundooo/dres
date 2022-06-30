@@ -1,14 +1,7 @@
 @import '../../partials/colors';
 @import '../../partials/mixins';
 
-.parallax {
-	position: relative;
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
 
-  }
   
   .abouthero {
 	background-image: url('/assets/images/hero_about.png');

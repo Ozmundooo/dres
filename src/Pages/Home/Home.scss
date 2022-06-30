@@ -7,12 +7,17 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	@include tablet{
 
+	}
   }
   
   .hero {
 	background-image: url('/assets/images/hero_home.png');
 	height: 560px;
+	@include tablet{
+		height: 300px;
+	}
   }
   .soap{
 	
