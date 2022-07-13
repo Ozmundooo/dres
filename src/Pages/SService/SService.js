@@ -1,19 +1,10 @@
 import React from 'react';
-import { firestore } from '../../firebase.js';
 import { Link } from 'react-router-dom';
-import Iframe from 'react-iframe'
-import { ParallaxProvider, Parallax, ParallaxBanner } from 'react-scroll-parallax';
 
-import ServiceCard from '../../Components/ServiceCard/ServiceCard.js';
-
-import heroHome from '../../assets/images/SS_hero.png';
-import GeneralText from "../../Components/GeneralText/GeneralText";
 import ServiceCaro from '../../Components/ServiceCaro/ServiceCaro.js';
 
-import SS1 from '../../assets/images/SS_service1.png';
 import SS2 from '../../assets/images/SS_service2.png';
 import SS3 from '../../assets/images/SS_service3.png';
-import SS4 from '../../assets/images/SS_service4.png';
 import SS5 from '../../assets/images/SS_service5.png';
 import SS6 from '../../assets/images/SS6.png';
 import SS7 from '../../assets/images/Paintenhancement.jpg';
@@ -21,6 +12,11 @@ import SS8 from '../../assets/images/Engine.png';
 
 import './SService.scss';
 import CarPreview from '../../Components/CarPreview/CarPreview.js';
+import Instagram from '../../Components/Instagram/Instagram.js';
+
+import ThreeMpdf from '../../assets/3M.pdf'
+import Averypdf from '../../assets/Avery.pdf'
+
 function SService() {
 
   const services = [
@@ -129,7 +125,7 @@ function SService() {
       <CarPreview/>
       <section className={'generaltext'}>
         <div className={'generaltext__content'}>
-          <p className='generaltext__text'>We work with 3M, Avery Denison, KPMF and more</p>
+          <p className='generaltext__text'><span className='yellow'>We work with <a href={ThreeMpdf} className='yellow'>3M</a>, <a href={Averypdf} className='yellow'>Avery Denison</a>,  <a href='https://www.graphiccommerce.com/wp-content/uploads/2021/02/wrap-metall-1.png' className='yellow'>KPMF</a> and more</span></p>
         </div>
       </section>
       <br></br>
@@ -140,7 +136,7 @@ function SService() {
           <button className='pdfButton__button'>CONTACT US</button>
         </Link>
       </div>
-
+      <Instagram/>
     </>
   );
 }

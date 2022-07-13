@@ -20,6 +20,7 @@ import imageAboutus from '../../assets/images/who_are_we.png';
 
 import './Home.scss';
 import HomeCaro from '../../Components/HomeCaro/HomeCaro.js';
+import Instagram from '../../Components/Instagram/Instagram.js';
 
 
 
@@ -146,7 +147,7 @@ function Home() {
             </div>
           </div>
         </section>
-  
+        <Instagram/>
     </>
   );
 }
