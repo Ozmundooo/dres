@@ -31,6 +31,8 @@ function About() {
       
       </div>
 
+      <img src={heroAbout} className='herohome__image' alt="" />
+
       <GeneralText
         title={"ABOUT US"}
         text={
@@ -78,17 +80,7 @@ function About() {
                   </h4>
                 </div>
             </div>
-            <div className="team__memberbox">
-                <img className="team__image" src={Tiago} alt="" />
-                <div className="team__textbox">
-                  <h4 className="team__name">Tiago</h4>
-                  {/* <h4 className="team__job">Job Position</h4> */}
-                  <h4 className="team__desc">Time at Dre’s: Since 2020<br></br>
-                      Favourite Car: Ferrari F40<br></br>
-                      About: Passionate and detail oriented. Friendly. Loves Mazda.
-                  </h4>
-                </div>
-            </div>
+
             <div className="team__memberbox">
                 <img className="team__image" src={Jacob} alt="" />
                 <div className="team__textbox">
@@ -141,3 +133,17 @@ function About() {
 }
 
 export default About;
+
+/*
+            <div className="team__memberbox">
+                <img className="team__image" src={Tiago} alt="" />
+                <div className="team__textbox">
+                  <h4 className="team__name">Tiago</h4>
+                  { <h4 className="team__job">Job Position</h4> }
+                  <h4 className="team__desc">Time at Dre’s: Since 2020<br></br>
+                      Favourite Car: Ferrari F40<br></br>
+                      About: Passionate and detail oriented. Friendly. Loves Mazda.
+                  </h4>
+                </div>
+            </div>
+*/

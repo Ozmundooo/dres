@@ -3,6 +3,9 @@
 .CarPreview{
     margin: auto;
     width: 60%;
+    @include tablet{
+        width: 80%;
+    }
     &__imagecont{
         
        
@@ -20,6 +23,9 @@
         width: 12.5%;
         height: 50px;
         border-radius: 12px 12px 0px 0px;
+        @include tablet{
+            height: 24px;
+        }
     }
     &__thumbselected{
         border: 3px solid white;

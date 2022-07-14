@@ -57,11 +57,12 @@
 		@include tablet {
 
 			flex-direction: column;
-			padding: 1rem 1.333rem;
+			padding: 0rem 1.333rem;
 			text-align: center;
 		};
 		@include mobile {
-			padding: 1rem 1.944rem;
+			margin-top: -4rem;
+			padding: 0rem 1.944rem;
 		};
 	}
     &__imagebox{

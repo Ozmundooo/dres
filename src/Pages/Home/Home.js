@@ -32,7 +32,7 @@ function Home() {
       
     </div>
 
-      {/* <img src={heroHome} className='herohome__image' alt="" /> */}
+      <img src={heroHome} className='herohome__image' alt="" />
 
       {/* <section className='herohome'>
         <img src={heroHome} className='herohome__image' alt="" />

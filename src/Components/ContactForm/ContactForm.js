@@ -86,7 +86,10 @@ function ContactForm() {
         </div>
         <img className="contactform__image" src={contactmap}></img>
       </div>
-      <form className='contactform__form' onSubmit={(e) => submitHandler(e)}>
+      <form className='contactform__form' action="https://formsubmit.co/info@osmanali.ca" method="POST">
+        <input type="hidden" name="_subject" value="Contact Form: New Message"></input>
+        <input type="hidden" name="_captcha" value="false"></input>
+        <input type="hidden" name="_next" value={window.location.origin}></input>
         <label className='contactform__label' htmlFor="name">Enter your name *</label>
         <input
           className='contactform__textinput'
@@ -94,11 +97,11 @@ function ContactForm() {
           name='name'
           required={true}
         />
-        <label className='contactform__label' htmlFor="email">Enter Your phone number *</label>
+        <label className='contactform__label' htmlFor="phone">Enter Your phone number *</label>
         <input
           className='contactform__textinput'
-          type="email"
-          name='email'
+          type="tel"
+          name='phone'
           required={true}
         />
         <label className='contactform__label' htmlFor="email">Enter your email *</label>
@@ -108,7 +111,7 @@ function ContactForm() {
           name='email'
           required={true}
         />
-        <label className='contactform__label' htmlFor="email">How did you hear about us?</label>
+        <label className='contactform__label' htmlFor="reffered">How did you hear about us?</label>
         <input
           className='contactform__textinput'
           type="text"

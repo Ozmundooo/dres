@@ -6,6 +6,9 @@
   .abouthero {
 	background-image: url('/assets/images/hero_about.png');
 	height: 560px;
+	@include tablet{
+		height: 500px;
+	}
   }
 
 .heroabout {
@@ -117,6 +120,7 @@
 	justify-content: center;
 	@include tablet {
 		padding: 2rem 4.813rem 2rem 3.875rem;
+		
 	}
 	@include mobile {
 		padding: 0;
@@ -152,6 +156,12 @@
 		display: flex;
 		flex-direction: row;
 		gap: 2rem;
+		@include mobile {
+			
+			flex-direction: column;
+			justify-content: center;
+			gap: 1rem;
+		}
 
 	}
 	&__contentBox {
@@ -174,10 +184,10 @@
 		@include sectionTitle;
 		font-size: 2.8rem;
 		@include tablet {
-			font-size: 0.9rem;
+			font-size: 1.189rem;
 		};
 		@include mobile {
-			font-size: 0.778rem;
+			font-size: 1.189rem;
 		}
 	}
 	&__subtext {
@@ -257,6 +267,7 @@
 	&__image{
 		width: 90%;
 		@include tablet{
+			margin-top: .7rem;
 			width: 100%;
 			margin-left: 2rem;
 		}
@@ -273,7 +284,8 @@
 		font-size: 3.363rem;
 		font-weight: 700;
 		@include tablet{
-			font-size: 0.989rem ;
+			margin-top: .2rem;
+			font-size: 1.189rem ;
 		}
 	}
 	&__divider{
@@ -292,6 +304,7 @@
 		font-size: 3.363rem;
 		font-weight: 700;
 		@include tablet{
+			margin-top: .2rem;
 			font-size: 0.989rem ;
 		}
 	}
@@ -301,6 +314,8 @@
 		font-weight: 400;
 		letter-spacing: .13rem;
 		@include tablet{
+			margin-top: .2rem;
+			letter-spacing: 0;
 			font-size: 0.989rem ;
 		}
 	}
@@ -309,6 +324,7 @@
 		font-size: 1.875rem;
 		width: 90%;
 		@include tablet{
+			margin-top: .2rem;
 			font-size: 0.989rem ;
 			width: 100%;
 		}
@@ -335,8 +351,8 @@
 			margin-bottom: 1.833rem;
 		}
 		@include mobile {
-			font-size: 0.889rem;
-			margin-bottom: 1.444rem;
+			font-size: 1.189rem;
+			margin-bottom: 0rem;
 		}
 	}
 }

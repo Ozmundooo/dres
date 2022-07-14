@@ -18,6 +18,7 @@ import IS4 from '../../assets/images/IS_service4.png';
 import IS5 from '../../assets/images/Interiorcleaning2d4d.png';
 import IS6 from '../../assets/images/InteriorTruckCleaning.png';
 // import IS7 from '../../assets/images/Engine.png';
+import Instagram from '../../Components/Instagram/Instagram.js';
 
 import './IService.scss';
 
@@ -85,7 +86,7 @@ function IService() {
       <div class="parallax IShero">
       
       </div>
-
+      <img src={heroHome} className='herohome__image' alt="" />
       {/* <section className='herohome'>
 
         <img src={heroHome} className='herohome__image' alt="" />
@@ -167,7 +168,7 @@ function IService() {
           <button className='pdfButton__button'>CONTACT US</button>
         </Link>
       </div>
-
+      <Instagram/>
     </>
   );
 }

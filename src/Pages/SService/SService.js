@@ -1,10 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
+import heroHome from '../../assets/images/SS_hero.png';
+
 import ServiceCaro from '../../Components/ServiceCaro/ServiceCaro.js';
 
+import SS1 from '../../assets/images/SS_service1.png';
 import SS2 from '../../assets/images/SS_service2.png';
 import SS3 from '../../assets/images/SS_service3.png';
+
 import SS5 from '../../assets/images/SS_service5.png';
 import SS6 from '../../assets/images/SS6.png';
 import SS7 from '../../assets/images/Paintenhancement.jpg';
@@ -91,7 +95,7 @@ function SService() {
       <div class="parallax SShero">
       
       </div>
-    
+      <img src={heroHome} className='herohome__image' alt="" />
       
         {/* <section className='herohome'>
 
@@ -125,7 +129,7 @@ function SService() {
       <CarPreview/>
       <section className={'generaltext'}>
         <div className={'generaltext__content'}>
-          <p className='generaltext__text'><span className='yellow'>We work with <a href={ThreeMpdf} className='yellow'>3M</a>, <a href={Averypdf} className='yellow'>Avery Denison</a>,  <a href='https://www.graphiccommerce.com/wp-content/uploads/2021/02/wrap-metall-1.png' className='yellow'>KPMF</a> and more</span></p>
+          <p className='generaltext__text'><span className='yellow'>We work with <a href={ThreeMpdf}  target ='_blank' className='yellow'>3M</a>, <a href={Averypdf} target ='_blank' className='yellow'>Avery Denison</a>,  <a href='https://www.graphiccommerce.com/wp-content/uploads/2021/02/wrap-metall-1.png' target ='_blank' className='yellow'>KPMF</a> and more</span></p>
         </div>
       </section>
       <br></br>

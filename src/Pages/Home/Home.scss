@@ -7,8 +7,8 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	@include tablet{
-
+	@include mobile{
+		display: none;
 	}
   }
   
@@ -23,16 +23,25 @@
 	
 	background-image: url('/assets/images/featured_products_bg.png');
 	height: 560px;
+	@include tablet{
+		height: 300px;
+	}
   }
   
 .herohome {
 	width: 100%;
 	
 	position: relative;
+	@include desktop{
+		display: none;
+	}
 	&__image {
 		width: 100%;
 		height: 525px;
 		object-fit: cover;
+		@include desktop{
+			display: none;
+		}
 	}
 	&__contentbox {
 		position: absolute;
@@ -48,72 +57,15 @@
 		justify-content: center;
 		align-items: center;
 	}
-	&__title {
-		color: $white;
-		font-family: 'Nunito Sans', sans-serif;
-		font-weight: 900;
-		font-size: 2.344rem;
-		margin: 1.7rem 0;
-		margin-bottom: 5rem;
-	}
-	&__logo{
-		width: 100%;
-	}
-	&__subtitle {
-		color: $black;
-		font-family: 'Nunito Sans', sans-serif;
-		font-weight: 700;
-		font-size: 1.562rem;
-		margin: 1.875rem 0 3.398rem;
-	}
-	&__buttonbox {
-		display: flex;
-	}
-	&__button {
-		margin: 0 2.9rem;
-		background-color: $grey;
-		border-radius: 38px;
-		color: $black;
-		font-family: 'Nunito Sans', sans-serif;
-		font-weight: 700;
-		font-size: 1.1rem;
-		width: 220px;
-		height: 52px;
-	}
 	@include tablet {
-		&__title {
-			font-size: 1.875rem;
-		}
-		&__subtitle {
-			font-size: 1rem;
-			margin: 1rem 0 1.25rem;
-		}
-		&__button {
-			font-size: 0.5rem;
-			width: 95px;
-			height: 25px;
-		}
+
 	}
 	@include mobile {
 		&__contentbox {
 			width: 300px;
 			height: 100%;
 		}
-		&__title {
-			font-size: 1.3rem;
-		}
-		&__subtitle {
-			margin: 1.5rem 0 3.5rem;
-			font-size: 1rem;
-		}
-		&__image {
-			height: 100%;
-		}
-		&__button {
-			margin: 0 1rem;
-			width: 110px;
-			font-size: 0.6rem;
-		}
+		
 	}
 }
 
