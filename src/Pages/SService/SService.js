@@ -121,7 +121,7 @@ function SService() {
       <section className={'generaltext'}>
         <div className={'generaltext__content'}>
           <h3 className='generaltext__title'><span className='yellow'>VEHICLE WRAP</span></h3>
-          <p className='generaltext__text'>This service provides privacy from outside eyes, while giving your vehicle some style. Window tints filter incoming sunlight, protecting both passengers and interior surfaces from harmful UV rays, and reducing your vehicle’s interior temperature for a more comfortable driving experience.</p>
+          <p className='generaltext__text'>This service provides privacy from outside eyes, while giving your vehicle some style. Window tints filter incoming sunlight, protecting both passengers and interior surfaces from harmful UV rays, and reducing your vehicle’s interior temperature for a more comfortable driving experience.<span className='yellow'> Starting at $175.00.</span></p>
         </div>
 
       </section>
@@ -129,7 +129,7 @@ function SService() {
       <CarPreview/>
       <section className={'generaltext'}>
         <div className={'generaltext__content'}>
-          <p className='generaltext__text'><span className='yellow'>We work with <a href={ThreeMpdf}  target ='_blank' className='yellow'>3M</a>, <a href={Averypdf} target ='_blank' className='yellow'>Avery Denison</a>,  <a href='https://www.graphiccommerce.com/wp-content/uploads/2021/02/wrap-metall-1.png' target ='_blank' className='yellow'>KPMF</a> and more</span></p>
+          <p className='generaltext__text'><span className='yellow'>We work with <a href={ThreeMpdf}  target ='_blank' className='yellow'>3M</a>, <a href={Averypdf} target ='_blank' className='yellow'>Avery Denison</a>,  <a href='https://metrorestyling.com/pages/kpmf-vinyl-wrap' target ='_blank' className='yellow'>KPMF</a> and more</span></p>
         </div>
       </section>
       <br></br>

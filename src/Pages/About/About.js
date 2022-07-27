@@ -111,8 +111,8 @@ function About() {
             <h4 className="voted__subtext">
               We are honoured to have received the 2017, 2018, and 2020 Record Reader Awards. These awards are dedicated to our hardworking team and our awesome clients. Thank you for your continued support!
             </h4>
-
-            <Link to="/about">
+            
+            <Link to="/contact">
               <button className="voted__button">BOOK APPOINTMENT</button>
             </Link>
           </div>

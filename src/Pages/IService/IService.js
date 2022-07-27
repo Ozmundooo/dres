@@ -36,22 +36,22 @@ function IService() {
       image: IS1
     },
     {
-      title:"Interior detailing (2DR, 4DR)",
+      title:"Interior detailing",
       subtitle:"",
       description:"Includes a full vacuum of seats, floor, in-between seats, crevices, all surfaces top to bottom cleaned, conditioned, windows, floor mats, foot pedals cleaned, trunk extra",
       warrenty: "Warrenty: Details",
       link:"s",
-      price: "Starting at $150",
+      price: "Starting at $299",
       image: IS5
     },
     {
-      title:"Interior detailing (SUV, Truck)",
+      title:"Exterior detailing",
       subtitle:"",
-      description:"Includes a full vacuum of seats, floor, in-between seats, crevices, all surfaces top to bottom cleaned, conditioned, windows, floor mats, foot pedals cleaned, trunk extra",
+      description:"Contact us for more details",
       warrenty: "Warrenty: Details",
       link:"s",
-      price: "Starting at $180 - VAN, Large SUVs, contact us",
-      image: IS6
+      price: "Starting at $299",
+      image: IS5
     },
     {
       title:"Interior cleaning",
@@ -79,6 +79,15 @@ function IService() {
       link:"s",
       price: "Starting at $60",
       image: IS4
+    },
+    {
+      title:"Repeat Customer Packages",
+      subtitle:"",
+      description:"",
+      warrenty: "Warrenty: Details",
+      link:"s",
+      price: "Contact us",
+      image: IS1
     }
   ];
   return (
@@ -130,7 +139,7 @@ function IService() {
       <section className={'generaltext'}>
         <div className={'generaltext__content'}>
           <h3 className='generaltext__title'><span className='yellow'>ADD-ONS / TINTING OPTIONS</span></h3>
-          <p className='generaltext__text'>This service provides privacy from outside eyes, while giving your vehicle some style. Window tints filter incoming sunlight, protecting both passengers and interior surfaces from harmful UV rays, and reducing your vehicle’s interior temperature for a more comfortable driving experience.<span className='yellow'> Starting at $165.00.</span></p>
+          <p className='generaltext__text'>This service provides privacy from outside eyes, while giving your vehicle some style. Window tints filter incoming sunlight, protecting both passengers and interior surfaces from harmful UV rays, and reducing your vehicle’s interior temperature for a more comfortable driving experience.<span className='yellow'> Starting at $175.00.</span></p>
         </div>
       </section>
       <section className= 'iframe'>

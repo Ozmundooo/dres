@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import Sidebar from '../Sidebar/Sidebar';
-import logo from '../../assets/images/logo_dre.svg';
+import logo from '../../assets/images/WhiteLogoDre.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './Header.scss';
 

@@ -81,7 +81,7 @@ function ContactForm() {
         <div className="contactform__iconcont">
           <img className="contactform__icon" src={whatsapp}></img>
           <h4 className="contactform__subtext">
-            Whatsapp
+          <a className="contactform__subtext" href="sms:(+1)(2262011994)">Whatsapp</a>
           </h4>
         </div>
         <img className="contactform__image" src={contactmap}></img>
@@ -119,7 +119,7 @@ function ContactForm() {
           required={false}
         />
 
-        <label className='contactform__label' htmlFor="message">enter a brief message and vehicle details *</label>
+        <label className='contactform__label' htmlFor="message">enter vehicle details (year, make and model)*</label>
         <textarea className='contactform__textarea' name="message" required={true}></textarea>
         <button className='contactform__button' type='submit'>SUBMIT</button>
       </form>
