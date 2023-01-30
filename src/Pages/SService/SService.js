@@ -12,7 +12,6 @@ import SS3 from "../../assets/images/SS_service3.png";
 import SS5 from "../../assets/images/SS_service5.png";
 import SS6 from "../../assets/images/SS6.png";
 import SS7 from "../../assets/images/Paintenhancement.jpg";
-import SS8 from "../../assets/images/Engine.png";
 
 import "./SService.scss";
 import CarPreview from "../../Components/CarPreview/CarPreview.js";
