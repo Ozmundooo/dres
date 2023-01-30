@@ -40,6 +40,15 @@ function IService() {
       image: IS1,
     },
     {
+      title: "Engine compartment cleaning ",
+      subtitle: "",
+      description: "Contact us to learn more about our services",
+      warrenty: "Warrenty: Details",
+      link: "s",
+      price: "Starting at $60",
+      image: SS8,
+    },
+    {
       title: "Interior detailing",
       subtitle: "",
       description:
