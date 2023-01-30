@@ -21,6 +21,7 @@ import IS3 from "../../assets/images/IS_service3.png";
 import IS4 from "../../assets/images/IS_service4.png";
 import IS5 from "../../assets/images/Interiorcleaning2d4d.png";
 import IS6 from "../../assets/images/InteriorTruckCleaning.png";
+import IS8 from "../../assets/images/Engine.png";
 // import IS7 from '../../assets/images/Engine.png';
 import Instagram from "../../Components/Instagram/Instagram.js";
 
@@ -46,7 +47,7 @@ function IService() {
       warrenty: "Warrenty: Details",
       link: "s",
       price: "Starting at $60",
-      image: SS8,
+      image: IS8,
     },
     {
       title: "Interior detailing",
